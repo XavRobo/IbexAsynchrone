@@ -20,7 +20,6 @@ module register_file #(
     // Write port W1
     input  logic [4:0]           waddr_a_i,
     input  logic [DataWidth-1:0] wdata_a_i,
-    input  logic                 we_a_i
 );
 
 	//de quoi calculer les positions des registres
@@ -52,6 +51,10 @@ module register_file #(
 	// WRITE //
 	///////////
 
-	//TODO: Ecriture dans les registres	
+	//TODO: Ecriture dans les registres
+	// un essai simpliste
+	always_ff @(posedge(req_ra_i)) begin
+		mem[waddr_a_int] <= wdata_a_i;
+	end	
 
 endmodule
