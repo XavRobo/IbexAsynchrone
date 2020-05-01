@@ -1,6 +1,6 @@
 module alu (
 	input logic req_i,
-	input logic rest_ni,
+	input logic rst_ni,
 
 	input  pkg::alu_op  operator_i, //TODO: modifier avec le package
 	input  logic [31:0] op_a_i,
@@ -8,20 +8,20 @@ module alu (
 	output logic [31:0] result_o
   );
 
-	import alu_pkg::*;
+	import pkg::*;
 
 	logic [31:0] operand_a;
 	logic [31:0] operand_b;
 	pkg::alu_op  operateur;
 
 	always_ff @(posedge(req_i)) begin
-	operand_a <= op_a_i;
-	operand_b <= op_b_i;
-	operateur <= operator_i;
+		operand_a <= op_a_i;
+		operand_b <= op_b_i;
+		operateur <= operator_i;
 	end
 
 	always_comb begin
-		unique case (operateur) begin
+		unique case (operateur)
 			ADD: begin
 				result_o = $signed(operand_a) + $signed(operand_b);
 			end
@@ -55,29 +55,29 @@ module alu (
 			end
 
 			 SLT, LT: begin
-				result_o[31] = $signed(operand_a) < $signed(operand_b);
+				result_o = $signed(operand_a) < $signed(operand_b);
 			 end
 			 
 			 SLTU, LTU: begin
-				result_o[31] = $unsigned(operand_a) < $unsigned(operand_b);
+				result_o = $unsigned(operand_a) < $unsigned(operand_b);
 			 end
 
 			 GE: begin
-				result_o[31] = $signed(operand_a) >= $signed(operand_b);
+				result_o = $signed(operand_a) >= $signed(operand_b);
 			 end
 			 
 			 GEU: begin
- 				result_o[31] = $unsigned(operand_a) >= $unsigned(operand_b);
+ 				result_o = $unsigned(operand_a) >= $unsigned(operand_b);
  			 end
  			 
 			 EQ: begin
-				result_o[31] = $unsigned(operand_a) == $unsigned(operand_b);
+				result_o = $unsigned(operand_a) == $unsigned(operand_b);
 			 end
 
 			 NE: begin
-				result_o[31] = $unsigned(operand_a) != $unsigned(operand_b);
+				result_o = $unsigned(operand_a) != $unsigned(operand_b);
 			 end
-		end
+		endcase
 	end
 
 endmodule

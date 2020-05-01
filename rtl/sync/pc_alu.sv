@@ -16,7 +16,7 @@ module pc_alu(
 );
 
 	always_ff @(posedge(req_i)) begin
-		if(branch_bool_i & ~op_bool_i[31]) begin
+		if(branch_bool_i & ~op_bool_i[0]) begin
 			pc_next_o <= operand_a_i + 4;
 		end
 		else begin
