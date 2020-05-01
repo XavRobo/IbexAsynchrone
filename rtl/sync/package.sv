@@ -2,7 +2,7 @@
 
 package pkg;
 
-unsigned int offset = 4'h8000;
+int unsigned offset = 4'h8000;
 
 typedef enum logic [4:0] {
 	// Arithmetics
@@ -67,7 +67,7 @@ typedef enum logic [4:0] {
 	*/
 	// Set lower than
 	 SLT,
-	 SLTU,
+	 SLTU
 	/*
 
 	// Ternary Bitmanip Operations
@@ -89,7 +89,7 @@ typedef enum logic [4:0] {
 typedef enum logic [1:0] {
 	JAL,
 	JALR,
-	BRANCH,
+	BRANCH
 } pc_op;
 
 typedef enum logic [6:0] {
@@ -123,7 +123,7 @@ typedef enum logic [1:0] {
 
 typedef enum logic {
 	OP_B_REG,
-	OP_B_IMM,
+	OP_B_IMM
 } op_b_sel;
 
 typedef enum logic [2:0] {

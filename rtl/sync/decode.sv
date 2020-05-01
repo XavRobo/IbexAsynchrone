@@ -4,11 +4,7 @@
 `define REG_S3 31:27
 `define REG_D  11:07
 
-module decode #(
-	parameter bit RV32E = 0,
-    parameter bit RV32M = 1,
-    parameter bit RV32B = 0,
-) (
+module decode(
 	//control signal
 	input  logic        		  req_i,
     input  logic        		  rst_ni,
@@ -52,7 +48,7 @@ module decode #(
 
 	output logic 				   req_pc_alu_o,
 	output pkg::pc_op 			   operateur_pc_alu_o,
-	output logic [31:0] 		   operand_pc_alu
+	//output logic [31:0] 		   operand_pc_alu
 
 	//output logic                 jump_set_o,            //TODO: jump taken set signal, used with buffer to flush
 	//output logic                 icache_inval_o,
@@ -63,7 +59,7 @@ module decode #(
 
 	output pkg::op_a_sel 			type_operand_a_o,
 	output pkg::op_b_sel 			type_operand_b_o,
-	output pkg::imm_b_sel 			type_imm_b_o,
+	output pkg::imm_b_sel 			type_imm_b_o
 );
 
 	import pkg::*;
@@ -79,21 +75,21 @@ module decode #(
 		instr <= instr_rdata_i;
 
 		// immediate extraction and sign extension
-		imm_i_type_o <= { {20{instr[31]}}, instr[31:20] };
-		imm_s_type_o <= { {20{instr[31]}}, instr[31:25], instr[11:7] };
-		imm_b_type_o <= { {19{instr[31]}}, instr[31], instr[7], instr[30:25], instr[11:8], 1'b0 };
-		imm_u_type_o <= { instr[31:12], 12'b0 };
-		imm_j_type_o <= { {12{instr[31]}}, instr[19:12], instr[20], instr[30:21], 1'b0 };
+		imm_i_type_o <= { {20{instr_rdata_i[31]}}, instr_rdata_i[31:20] };
+		imm_s_type_o <= { {20{instr_rdata_i[31]}}, instr_rdata_i[31:25], instr_rdata_i[11:7] };
+		imm_b_type_o <= { {19{instr_rdata_i[31]}}, instr_rdata_i[31], instr_rdata_i[7], instr_rdata_i[30:25], instr[11:8], 1'b0 };
+		imm_u_type_o <= { instr_rdata_i[31:12], 12'b0 };
+		imm_j_type_o <= { {12{instr_rdata_i[31]}}, instr_rdata_i[19:12], instr_rdata_i[20], instr_rdata_i[30:21], 1'b0 };
 		imm_o_type_o <= offset;
-		imm_o_type_o <= 4;
+		imm_n_type_o <= 4;
 
 
 		//source register
-		rf_raddr_a_o <= use_rs3 ? instr[`REG_S3] : instr[`REG_S1]; // rs3 / rs1
-		rf_raddr_b_o <= instr[`REG_S2]; // rs2
+		rf_raddr_a_o <= instr_rdata_i[`REG_S1]; // rs3 / rs1
+		rf_raddr_b_o <= instr_rdata_i[`REG_S2]; // rs2
 
 		// destination register
-		rf_waddr_o   <= instr[`REG_D]; // rd
+		rf_waddr_o   <= instr_rdata_i[`REG_D]; // rd
 	end
 
 	/////////////
@@ -107,17 +103,17 @@ module decode #(
 		req_data_o   	   = 1'b0;
 		we_data_o    	   = 1'b0;
 		req_pc_alu_o 	   = 1'b0;
-		operateur_pc_alu_o =    0;
+		operateur_pc_alu_o = JALR;
 		req_alu_o 		   = 1'b0;
-		operateur_alu_o    =    0;
-		type_operand_a_o   =    0;
-		type_operand_b_o   =    0;
-		type_imm_b_o  	   =    0;
+		operateur_alu_o    = ADD;
+		type_operand_a_o   = OP_A_IMM;
+		type_operand_b_o   = OP_B_IMM;
+		type_imm_b_o  	   = IMM_B_N;
 
 		//case selection
 		op = opcode'(instr[6:0]);
 
-		unique case (op) begin
+		unique case (op)
 
 			//////////////////
 			// Load / Store //
@@ -137,8 +133,8 @@ module decode #(
 			end
 
 			OPCODE_STORE: begin
-				req_rf_ra_o 	 = 1'b1;
-				req_rf_rb_o 	 = 1'b1;
+				req_rf_ra_o = 1'b1;
+				req_rf_rb_o = 1'b1;
 
 				req_alu_o 		 = 1'b1;
 				operateur_alu_o  = ADD;
@@ -181,7 +177,7 @@ module decode #(
 				req_pc_alu_o 	 = 1'b1;
 				operateur_pc_alu_o = BRANCH;
 
-				unique case (instr[14:12]) begin
+				unique case (instr[14:12])
 					3'b000:  operateur_alu_o = EQ;
 					3'b001:  operateur_alu_o = NE;
 					3'b100:  operateur_alu_o = LT;
@@ -189,7 +185,7 @@ module decode #(
 					3'b110:  operateur_alu_o = LTU;
 					3'b111:  operateur_alu_o = GEU;
 					default: ;
-				end
+				endcase
 			end
 
 			/////////
@@ -221,10 +217,10 @@ module decode #(
 				type_operand_b_o = OP_B_IMM;
 				type_imm_b_o 	 = IMM_B_I;
 
-				unique case (instr[14:12]) begin
+				unique case (instr[14:12])
 					3'b000: operateur_alu_o = ADD;  // Add Immediate
-					//TODO ? 3'b010: operateur_alu_o = SLT;  // Set to one if Lower Than Immediate
-					//TODO ? 3'b011: operateur_alu_o = SLTU; // Set to one if Lower Than Immediate Unsigned
+					3'b010: operateur_alu_o = SLT;  // Set to one if Lower Than Immediate
+					3'b011: operateur_alu_o = SLTU; // Set to one if Lower Than Immediate Unsigned
 					3'b100: operateur_alu_o = XOR;  // Exclusive Or with Immediate
 					3'b110: operateur_alu_o = OR;   // Or with Immediate
 					3'b111: operateur_alu_o = AND;  // And with Immediate
@@ -240,7 +236,7 @@ module decode #(
 					end
 
 			      	default: ;
-				end
+				endcase
 			end
 
 			OPCODE_OP: begin
@@ -252,7 +248,7 @@ module decode #(
 				type_operand_a_o = OP_A_REG;
 				type_operand_b_o = OP_B_REG;
 
-				unique case ({instr[31:25], instr[14:12]}) begin
+				unique case ({instr[31:25], instr[14:12]})
 					 // RV32I ALU operations
 		            {7'b000_0000, 3'b000}: operateur_alu_o = ADD;   // Add
 		            {7'b010_0000, 3'b000}: operateur_alu_o = SUB;   // Sub
@@ -264,7 +260,7 @@ module decode #(
 		            {7'b000_0000, 3'b001}: operateur_alu_o = SLL;   // Shift Left Logical
 		            {7'b000_0000, 3'b101}: operateur_alu_o = SRL;   // Shift Right Logical
 		            {7'b010_0000, 3'b101}: operateur_alu_o = SRA;   // Shift Right Arithmetic
-				end
+				endcase
 								
 			end
 
@@ -279,7 +275,7 @@ module decode #(
 
 
 			//TODO gestion des MISC MEM et appel systeme
-		end
+		endcase
 	end
 
 
