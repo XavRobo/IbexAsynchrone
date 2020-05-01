@@ -1,15 +1,13 @@
 //Modification of ibex_register_file_latch.sv
 //Written by Xavier Lesage
 
-//TODO locking mechanism
-
 module register_file #(
 	parameter int unsigned DataWidth = 32	
 ) (
 	//control signal
 	input  logic req_ra_i,
 	input  logic req_rb_i,
-	input  logic req_w_i,
+	input  logic req_w,
 	input  logic rst_ni,
 
 	//Read port R1
@@ -56,7 +54,7 @@ module register_file #(
 
 	//TODO: Ecriture dans les registres
 	// un essai simpliste
-	always_ff @(posedge(req_w_i)) begin
+	always_ff @(posedge(req_ra_i)) begin
 		mem[waddr_a_int] <= wdata_a_i;
 	end	
 
