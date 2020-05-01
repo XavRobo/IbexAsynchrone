@@ -64,9 +64,11 @@ typedef enum logic [4:0] {
 	 CTZ,
 	 PCNT,
 
+	*/
 	// Set lower than
 	 SLT,
 	 SLTU,
+	/*
 
 	// Ternary Bitmanip Operations
 	// RV32B

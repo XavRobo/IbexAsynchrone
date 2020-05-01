@@ -147,6 +147,7 @@ module issue(
 
 		//LSU
 		if(data_req_i) begin
+			req_rf_w_o <= 1'b1;
 			data_we_o 	<= data_we_i;
 			if(data_we_i) begin //ecriture mem
 				 lsu_wdata_o <= rf_rdata_b_i;
