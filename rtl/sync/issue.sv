@@ -1,4 +1,4 @@
-module issue (
+module issue(
 	//control signal
 	input  logic req_i,
 	input  logic rst_ni,
@@ -58,15 +58,13 @@ module issue (
     
     output logic [4:0] rf_waddr_o,
     output logic 	   rf_soursel_o,//0 for ALU and 1 for LSU
-    output logic 	   req_rf_w_o	
+    output logic 	   req_rf_w_o,	
 );
-
-	import pkg::*;
 
 	logic [31:0] operand_b;
 
 	always_ff @(posedge(req_i)) begin
-		unique case (type_imm_b_i) 
+		unique case (type_imm_b_i) begin
 			IMM_B_I: begin
 				operand_b <= imm_i_type_i;
 			end
@@ -98,9 +96,10 @@ module issue (
 			default: begin
 				operand_b <= 0;
 			end
-		endcase
+		end
 
 		data_req_o 	 <= data_req_i;
+		req_pc_alu_o <= req_pc_alu_i;
 		req_alu_o    <= req_alu_i;
 
 		//valeur par defaut
@@ -109,21 +108,19 @@ module issue (
 
 		operand_alu_a_o    <= 0;
 		operand_alu_b_o    <= 0;
-		operateur_alu_o    <= ADD;
+		operateur_alu_o    <= 0;
 
 		operand_pc_alu_a_o <= pc_rdata_i;
 		operand_pc_alu_b_o <= 0;
 		branch_bool_o 	   <= 1'b0;
-
-		data_we_o <= 0;
 			
 		lsu_wdata_o 	   <= 0;
-		//lsu_addr_o 		   <= 0;
+		lsu_addr_o 		   <= 0;
 		rf_waddr_o 		   <= rf_waddr_i;
 		
 		//PC_ALU
 		if(req_pc_alu_i) begin
-			unique case (operateur_pc_alu_i)
+			unique case (operateur_pc_alu_i) begin
 				JAL: begin
 					operand_pc_alu_b_o <= imm_n_type_i;
 				end
@@ -136,11 +133,13 @@ module issue (
 					operand_pc_alu_b_o <= imm_n_type_i;
 					branch_bool_o 	   <= 1'b1;
 				end
-			endcase
+			end
 
 			req_rf_w_o <= 0;
 		end
 		else begin
+			req_pc_alu_o 		<= 1'b1;
+
 			operand_pc_alu_b_o  <=  imm_n_type_i;
 
 			req_rf_w_o <= 0;
@@ -164,7 +163,7 @@ module issue (
 		if(req_alu_i) begin
 			req_rf_w_o <= 1'b1;
 		
-			unique case (type_operand_a_i)
+			unique case (type_operand_a_i) begin
 				OP_A_REG: begin
 					operand_alu_a_o <= rf_rdata_a_i;
 				end
@@ -176,9 +175,9 @@ module issue (
 				OP_A_CURRPC: begin
 					operand_alu_a_o <= pc_rdata_i;
 				end
-			endcase
+			end
 
-			unique case (type_operand_b_i)
+			unique case (type_operand_b_i) begin
 				OP_B_REG: begin
 					operand_alu_b_o <= rf_rdata_b_i;
 				end
@@ -186,7 +185,7 @@ module issue (
 				OP_B_IMM: begin 
 					operand_alu_b_o <= operand_b;
 				end
-			endcase
+			end
 			
 			operateur_alu_o <=  operateur_alu_i;	
 		end

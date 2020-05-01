@@ -3,7 +3,6 @@ module tbench;
 timeunit  1ns;
 timeprecision 1ns;
 
-//DECODE
 //input
 bit request;//input
 bit rst;//input
@@ -21,10 +20,10 @@ logic [31:0] imm_n_type;
 
 logic 		 req_rf_ra;
 logic 		 req_rf_rb;
-logic [4:0] rf_raddr_a;
-logic [4:0] rf_raddr_b;
+logic [04:0] rf_raddr_a;
+logic [04:0] rf_raddr_b;
 
-logic [4:0] rf_waddr;
+logic [04:0] rf_waddr;
 
 logic 		 req_data;
 logic 		 we_data;
