@@ -1,11 +1,4 @@
-/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module register_file
-
-Top level modules:
-	register_file
-
-} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module pc_alu
 
@@ -26,6 +19,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	tbench
+
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_lsu.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_lsu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tbench_lsu
+
+Top level modules:
+	tbench_lsu
 
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_pc_alu.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_pc_alu.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -115,13 +115,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	lsu_out
-
-} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_RF.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_RF.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tbench_rf
-
-Top level modules:
-	tbench_rf
 
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/c_element.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/c_element.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
