@@ -19,6 +19,10 @@ module alu (
 		operand_b <= op_b_i;
 		operateur <= operator_i;
 	end
+	
+	logic [32:0] shift_a_ext;
+	logic signed [32:0] result_signed;
+	logic [32:0] result_ext;
 
 	always_comb begin
 		unique case (operateur)
@@ -31,15 +35,22 @@ module alu (
 			end
 
 			SRA: begin
-				result_o = $signed(operand_a) >> operand_b;
+				result_o = $signed($signed(operand_a) >> $signed(operand_b));
 			end
 
-			SRL: begin
-				result_o = $unsigned(operand_a) >> operand_b;
+			SRL: begin //TODO
+
+				shift_a_ext = {operand_a[31],operand_a}; //on duplique le msb de a si arithmetique
+
+
+				result_signed = $signed(shift_a_ext) >>> operand_b[4:0];
+				result_ext = $unsigned(result_signed);
+
+				result_o = result_ext[31:0];
 			end
 
 			SLL: begin
-				result_o = $unsigned(operand_a) << operand_b;
+				result_o = $unsigned(operand_a) << $unsigned(operand_b);
 			end
 
 			XOR: begin

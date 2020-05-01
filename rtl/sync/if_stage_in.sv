@@ -15,7 +15,7 @@ module if_stage_in(
 	
 
 	//interface fetch / MEM
-	output logic [31:0] instr_addr_o,
+	output logic [31:0] instr_addr_o
 );
 
 always_ff @(posedge(req_i)) begin
