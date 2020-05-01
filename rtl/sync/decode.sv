@@ -102,17 +102,17 @@ module decode #(
 
 	always_comb begin
 		//default values
-		req_rf_ra_o  	   <= 1'b0;
-		req_rf_rb_o  	   <= 1'b0;
-		req_data_o   	   <= 1'b0;
-		we_data_o    	   <= 1'b0;
-		req_pc_alu_o 	   <= 1'b0;
-		operateur_pc_alu_o <=    0;
-		req_alu_o 		   <= 1'b0;
-		operateur_alu_o    <=    0;
-		type_operand_a_o   <=    0;
-		type_operand_b_o   <=    0;
-		type_imm_b_o  	   <=    0;
+		req_rf_ra_o  	   = 1'b0;
+		req_rf_rb_o  	   = 1'b0;
+		req_data_o   	   = 1'b0;
+		we_data_o    	   = 1'b0;
+		req_pc_alu_o 	   = 1'b0;
+		operateur_pc_alu_o =    0;
+		req_alu_o 		   = 1'b0;
+		operateur_alu_o    =    0;
+		type_operand_a_o   =    0;
+		type_operand_b_o   =    0;
+		type_imm_b_o  	   =    0;
 
 		//case selection
 		op = opcode'(instr[6:0]);
@@ -124,30 +124,30 @@ module decode #(
 			//////////////////
 
 			OPCODE_LOAD: begin
-				req_rf_ra_o <= 1'b1;
+				req_rf_ra_o = 1'b1;
 
-				req_alu_o 		 <= 1'b1;
-				operateur_alu_o  <= ADD;
-				type_operand_a_o <= OP_A_REG;
-				type_operand_b_o <= OP_B_IMM;
-				type_imm_b_o 	 <= IMM_B_O;
+				req_alu_o 		 = 1'b1;
+				operateur_alu_o  = ADD;
+				type_operand_a_o = OP_A_REG;
+				type_operand_b_o = OP_B_IMM;
+				type_imm_b_o 	 = IMM_B_O;
 
-				req_data_o 		 <= 1'b1;
-				we_data_o 		 <= 1'b0;
+				req_data_o 		 = 1'b1;
+				we_data_o 		 = 1'b0;
 			end
 
 			OPCODE_STORE: begin
-				req_rf_ra_o 	 <= 1'b1;
-				req_rf_rb_o 	 <= 1'b1;
+				req_rf_ra_o 	 = 1'b1;
+				req_rf_rb_o 	 = 1'b1;
 
-				req_alu_o 		 <= 1'b1;
-				operateur_alu_o  <= ADD;
-				type_operand_a_o <= OP_A_REG;
-				type_operand_b_o <= OP_B_IMM;
-				type_imm_b_o 	 <= IMM_B_O;
+				req_alu_o 		 = 1'b1;
+				operateur_alu_o  = ADD;
+				type_operand_a_o = OP_A_REG;
+				type_operand_b_o = OP_B_IMM;
+				type_imm_b_o 	 = IMM_B_O;
 
-				req_data_o 		 <= 1'b1;
-				we_data_o 		 <= 1'b1;
+				req_data_o 		 = 1'b1;
+				we_data_o 		 = 1'b1;
 			end
 
 			//////////
@@ -155,14 +155,14 @@ module decode #(
 			//////////
 
 			OPCODE_JAL: begin
-				req_alu_o 		 <= 1'b1;
-				operateur_alu_o  <= ADD;
-				type_operand_a_o <= OP_A_CURRPC;
-				type_operand_b_o <= OP_B_IMM;
-				type_imm_b_o 	 <= IMM_B_N;
+				req_alu_o 		 = 1'b1;
+				operateur_alu_o  = ADD;
+				type_operand_a_o = OP_A_CURRPC;
+				type_operand_b_o = OP_B_IMM;
+				type_imm_b_o 	 = IMM_B_N;
 
-				req_pc_alu_o 	 <= 1'b1;
-				operateur_pc_alu_o <= JAL;
+				req_pc_alu_o 	 = 1'b1;
+				operateur_pc_alu_o = JAL;
 			end
 
 			OPCODE_JALR: begin
@@ -171,15 +171,15 @@ module decode #(
 			end
 
 			OPCODE_BRANCH: begin
-				req_rf_ra_o  	   <= 1'b1;
-				req_rf_rb_o  	   <= 1'b1;
+				req_rf_ra_o  	   = 1'b1;
+				req_rf_rb_o  	   = 1'b1;
 
-				req_alu_o 		 <= 1'b1;
-				type_operand_a_o <= OP_A_REG;
-				type_operand_b_o <= OP_B_REG;
+				req_alu_o 		 = 1'b1;
+				type_operand_a_o = OP_A_REG;
+				type_operand_b_o = OP_B_REG;
 
-				req_pc_alu_o 	 <= 1'b1;
-				operateur_pc_alu_o <= BRANCH;
+				req_pc_alu_o 	 = 1'b1;
+				operateur_pc_alu_o = BRANCH;
 
 				unique case (instr[14:12]) begin
 					3'b000:  operateur_alu_o = EQ;
@@ -197,29 +197,31 @@ module decode #(
 			/////////
 
 			OPCODE_LUI: begin
-				req_alu_o 		 <= 1'b1;
-				operateur_alu_o  <= ADD;
-				type_operand_a_o <= OP_A_IMM;
-				type_operand_b_o <= OP_B_IMM;
-				type_imm_b_o 	 <= IMM_B_U;
+				req_alu_o 		 = 1'b1;
+				operateur_alu_o  = ADD;
+				type_operand_a_o = OP_A_IMM;
+				type_operand_b_o = OP_B_IMM;
+				type_imm_b_o 	 = IMM_B_U;
 			end
 
 			OPCODE_AUIPC: begin
-				req_alu_o 		 <= 1'b1;
-				operateur_alu_o  <= ADD;
-				type_operand_a_o <= OP_A_CURRPC;
-				type_operand_b_o <= OP_B_IMM;
-				type_imm_b_o 	 <= IMM_B_U;
+				req_alu_o 		 = 1'b1;
+				operateur_alu_o  = ADD;
+				type_operand_a_o = OP_A_CURRPC;
+				type_operand_b_o = OP_B_IMM;
+				type_imm_b_o 	 = IMM_B_U;
 			end
 
 			OPCODE_OP_IMM: begin
-				req_rf_ra_o  	   <= 1'b1;
+				req_alu_o 		   = 1'b1;
+			
+				req_rf_ra_o  	   = 1'b1;
 
-				type_operand_a_o <= OP_A_CURRPC;
-				type_operand_b_o <= OP_B_IMM;
-				type_imm_b_o 	 <= IMM_B_I;
+				type_operand_a_o = OP_A_REG;
+				type_operand_b_o = OP_B_IMM;
+				type_imm_b_o 	 = IMM_B_I;
 
-				unique case (instr_alu[14:12]) begin
+				unique case (instr[14:12]) begin
 					3'b000: operateur_alu_o = ADD;  // Add Immediate
 					//TODO ? 3'b010: operateur_alu_o = SLT;  // Set to one if Lower Than Immediate
 					//TODO ? 3'b011: operateur_alu_o = SLTU; // Set to one if Lower Than Immediate Unsigned
@@ -229,10 +231,10 @@ module decode #(
 					3'b001: operateur_alu_o = SLL; // Shift Left Logical by Immediate
 
 					3'b101: begin
-						if (instr_alu[31:27] == 5'b0_0000) begin
+						if (instr[31:27] == 5'b0_0000) begin
 						 	 operateur_alu_o = SRL;            // Shift Right Logical by Immediate
 						end
-						else if (instr_alu[31:27] == 5'b0_1000) begin
+						else if (instr[31:27] == 5'b0_1000) begin
 						  	operateur_alu_o = SRA;            // Shift Right Arithmetically by Immediate
 						end
 					end
@@ -240,6 +242,43 @@ module decode #(
 			      	default: ;
 				end
 			end
+
+			OPCODE_OP: begin
+				req_alu_o 	 = 1'b1;
+				
+				req_rf_ra_o  = 1'b1;
+				req_rf_rb_o  = 1'b1;
+
+				type_operand_a_o = OP_A_REG;
+				type_operand_b_o = OP_B_REG;
+
+				unique case ({instr[31:25], instr[14:12]}) begin
+					 // RV32I ALU operations
+		            {7'b000_0000, 3'b000}: operateur_alu_o = ADD;   // Add
+		            {7'b010_0000, 3'b000}: operateur_alu_o = SUB;   // Sub
+		            {7'b000_0000, 3'b010}: operateur_alu_o = SLT;   // Set Lower Than
+		            {7'b000_0000, 3'b011}: operateur_alu_o = SLTU;  // Set Lower Than Unsigned
+		            {7'b000_0000, 3'b100}: operateur_alu_o = XOR;   // Xor
+		            {7'b000_0000, 3'b110}: operateur_alu_o = OR;    // Or
+		            {7'b000_0000, 3'b111}: operateur_alu_o = AND;   // And
+		            {7'b000_0000, 3'b001}: operateur_alu_o = SLL;   // Shift Left Logical
+		            {7'b000_0000, 3'b101}: operateur_alu_o = SRL;   // Shift Right Logical
+		            {7'b010_0000, 3'b101}: operateur_alu_o = SRA;   // Shift Right Arithmetic
+				end
+								
+			end
+
+			default: begin
+			//NOP
+				req_alu_o 		 = 1'b1;
+				operateur_alu_o  = ADD;
+				type_operand_a_o = OP_A_IMM;
+				type_operand_b_o = OP_B_IMM;
+				type_imm_b_o 	 = IMM_B_I;
+			end
+
+
+			//TODO gestion des MISC MEM et appel systeme
 		end
 	end
 
