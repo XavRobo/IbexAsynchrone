@@ -1,4 +1,5 @@
 module tbench_lsu;
+	int valeur = 5;
 
 	logic req_mem, req_lin, req_loutre, rst;
 
@@ -49,7 +50,7 @@ module tbench_lsu;
 
 	initial begin
 		req_mem = 0; req_lin = 0; req_loutre = 0;
-		#5 lsu_we = 1; 
+		#valeur lsu_we = 1; 
 		lsu_addr  = 32'b00000000000000000000000000000001;
 		lsu_wdata = 32'b00000000000000000000000000001111;
 		#5 req_lin = 1;

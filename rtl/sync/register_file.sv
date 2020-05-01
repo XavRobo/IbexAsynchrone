@@ -59,7 +59,7 @@ module register_file #(
 	//TODO: Ecriture dans les registres
 	// un essai simpliste
 	always_ff @(posedge(req_w_i)) begin
-		if(soursel) begin
+		if(soursel_i) begin
 			mem[waddr_a_int] <= wdata_alu_i;
 		end
 		else begin

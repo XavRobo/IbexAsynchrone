@@ -10,16 +10,16 @@ module if_stage_in(
 
 	//interface ext / fetch
 	output logic [31:0] insmem_rdata_o, //ce nom est pas top
-	output logic 		insmem_err_o,
+	//output logic 		insmem_err_o,
 	
 	//interface fetch / MEM
 	input  logic [31:0] instr_rdata_i,
-	input  logic 		instr_err_i
+	//input  logic 		instr_err_i
 );
 
 always_ff @(posedge(req_i)) begin
 	insmem_rdata_o <= instr_rdata_i;
-	insmem_err_o   <= instr_err_i;
+	//insmem_err_o   <= instr_err_i;
 end
 
 endmodule
