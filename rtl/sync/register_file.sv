@@ -8,6 +8,7 @@ module register_file #(
 	input  logic req_ra_i,
 	input  logic req_rb_i,
 	input  logic req_w,
+	input  logic rst_ni,
 
 	//Read port R1
     input  logic [4:0]           raddr_a_i,
