@@ -11,7 +11,7 @@ Z0 d/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus
 valu
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
 Z2 DXx4 work 3 pkg 0 22 Sd_RS[5B<4FoY90o`>48X2
-Z3 !s110 1588357039
+Z3 !s110 1588360324
 !i10b 1
 !s100 MmkL@F@BbcWPYVJc0MTz21
 IU;`ImKM7B]4e0fB3FHNh<3
@@ -27,7 +27,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1588357039.000000
+Z6 !s108 1588360324.000000
 !s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv|
 !i113 1
@@ -54,6 +54,30 @@ r1
 R6
 !s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/c_element.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/c_element.sv|
+!i113 1
+R7
+R8
+vcontroler
+R1
+R3
+!i10b 1
+!s100 CQ6Q:F;^eGh8Bm3U[MgKZ2
+I^ni0i^@oAcz<VeYGzLLJ73
+R4
+!s105 controler_sv_unit
+S1
+R0
+w1588359453
+8/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+F/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv|
 !i113 1
 R7
 R8
@@ -84,7 +108,7 @@ R7
 R8
 vif_stage_in
 R1
-Z10 !s110 1588357040
+R3
 !i10b 1
 !s100 Y>?IESV<G]KJhYHld[kXd1
 IWZ5EOkY0IiG9D7P1jg4_T1
@@ -133,7 +157,7 @@ R7
 R8
 vlsu_in
 R1
-R10
+R3
 !i10b 1
 !s100 :_7Y`mR5NcFn9k`]_][;B1
 IDS2Wfo@:Rn^?0FKLMAo0Q3
@@ -149,7 +173,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1588357040.000000
+R6
 !s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/lsu_in.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/lsu_in.sv|
 !i113 1
@@ -157,7 +181,7 @@ R7
 R8
 vlsu_out
 R1
-R10
+R3
 !i10b 1
 !s100 3fSQlgP>HkB2LfhIL`WKf2
 IkgL51RH8iA5g1Hoa2WD8Z2
@@ -173,7 +197,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/lsu_out.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/lsu_out.sv|
 !i113 1
@@ -228,15 +252,15 @@ R7
 R8
 vregister_file
 R1
-R10
+R3
 !i10b 1
-!s100 TLcnSlCS0F_hJNQ;zVnb73
-I28imHXN<CTE^L=jZkaDk[3
+!s100 DaSQG<5Cn1P>djgBD`]:61
+I30hgJ>W:k9]jVfaE3I7RI1
 R4
 !s105 register_file_sv_unit
 S1
 R0
-w1588353754
+w1588358047
 8/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
 F/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
 L0 6
@@ -244,7 +268,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv|
 !i113 1
@@ -252,7 +276,7 @@ R7
 R8
 vtbench
 R1
-R10
+R3
 !i10b 1
 !s100 zm`1VmJ=;Cj_ToYiRRThh2
 IA9@dKDhh0=l00=VBnSZ]i0
@@ -268,7 +292,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/tbench_decode_imm.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/tbench_decode_imm.sv|
 !i113 1
@@ -299,6 +323,30 @@ R6
 !i113 1
 R7
 R8
+vtbench_controler
+R1
+R3
+!i10b 1
+!s100 mnFT?l5UGV7K_:ZS?V01B0
+II8=W;nZSZhFI0WBzAY]cI2
+R4
+!s105 tbench_controler_sv_unit
+S1
+R0
+w1588360321
+8/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv
+F/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv|
+!i113 1
+R7
+R8
 vtbench_issue
 R1
 R2
@@ -326,15 +374,15 @@ R7
 R8
 vtbench_lsu
 R1
-R10
+R3
 !i10b 1
-!s100 HljlzZ_LkKVB>QFFRC7V10
-I7;IM;Obg>`=3oA<[1];ET1
+!s100 7cB2bkcXXBM8JHzO5<JZS3
+IUQ3]VX][fA2`6PP:3YM=63
 R4
 !s105 tbench_lsu_sv_unit
 S1
 R0
-w1588357030
+w1588358002
 8/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_lsu.sv
 F/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_lsu.sv
 L0 1
@@ -342,7 +390,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_lsu.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_lsu.sv|
 !i113 1
@@ -350,15 +398,15 @@ R7
 R8
 vtbench_rf
 R1
-R10
+R3
 !i10b 1
-!s100 a74ZBi9GkLQiXYAZ;G?CW0
-IzhSiN3cD6eV7zmA2`0ih=0
+!s100 T:FP?;eQYiV<`l][94mFS0
+I6VA]VzzfdPLiJ40GUNX633
 R4
 !s105 tbench_RF_sv_unit
 S1
 R0
-w1588354965
+w1588357674
 8/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_RF.sv
 F/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_RF.sv
 L0 1
@@ -366,7 +414,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_RF.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_RF.sv|
 !i113 1
@@ -374,7 +422,7 @@ R7
 R8
 vtmem
 R1
-R10
+R3
 !i10b 1
 !s100 J`H28K:R7E^^W1n:j@m6<2
 IKgZCQERUkR3eVI:TP8kkb0
@@ -390,7 +438,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tmem.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tmem.sv|
 !i113 1
