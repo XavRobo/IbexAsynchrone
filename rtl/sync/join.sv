@@ -1,4 +1,4 @@
-module join(
+module join2(
 	input  logic rst_ni,
 
 	input  logic req_in1_i,
@@ -7,12 +7,14 @@ module join(
 
 	output logic ack_in1_o,
 	output logic ack_in2_o,
-	output logic req_out_o,
+	output logic req_out_o
 );
 
 	always_ff @(negedge(rst_ni)) begin
+		/*
 		ack_in1_o <= 1'b0;
 		ack_in2_o <= 1'b0;
+		*/
 		req_out_o <= 1'b0;
 	end
 

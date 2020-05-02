@@ -1,5 +1,8 @@
 module tbench_controler;
 
+timeunit  1ns;
+timeprecision 1ns;
+
 	logic req_in, bl_ack_out, req_out, anack_in, bl_ack_out2, req_out2;
 
 	controler con (

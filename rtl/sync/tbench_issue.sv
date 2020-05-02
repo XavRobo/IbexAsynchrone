@@ -1,5 +1,5 @@
 module tbench_issue;
-
+/*
   //ALU
 
   logic		     req_alu_o;
@@ -45,5 +45,5 @@ module tbench_issue;
     .req_alu_o        (re)
     .operateur_alu_i
   )
-
+*/
 endmodule

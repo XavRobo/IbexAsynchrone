@@ -10,10 +10,12 @@ module controler #(
 	output logic ack_in_o	
 );
 
+timeunit  1ns;
+timeprecision 1ns;
+
 	//parameter DELAY = 5;
 
-	always_ff @(negedge(rst_ni)) begin
-		req_out_o <= 1'b0;
+	always_ff @(negedge(rst_ni)) begin //TODO gestion des rst
 		ack_in_o  <= 1'b0;
 	end
 

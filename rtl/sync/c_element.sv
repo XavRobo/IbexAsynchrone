@@ -1,12 +1,17 @@
 module c_element(
-input a,
-input b,
-output reg c
+input  logic rst,
+input  logic a,
+input  logic b,
+output logic c
 );
 
-reg s;
-assign s = c;
-always @ ( * ) begin
-  c = (a && b) | (s && (a | b));
+reg yp;
+assign yp = y;
+
+always_comb begin
+  y = (a & b) | (yp & (a | b));
+  c = y & ~rst;
 end
+
+
 endmodule

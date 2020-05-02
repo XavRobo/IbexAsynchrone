@@ -1,3 +1,1389 @@
 # reading modelsim.ini
 # Loading project Simu
-quit
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv failed with 1 errors.
+# Compile of tbench_issue.sv failed with 1 errors.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv failed with 1 errors.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv failed with 3 errors.
+# Compile of fork.sv failed with 1 errors.
+# Compile of fork3.sv failed with 1 errors.
+# Compile of fork4.sv failed with 2 errors.
+# Compile of join.sv failed with 1 errors.
+# Compile of join3.sv failed with 1 errors.
+# 28 compiles, 9 failed with 12 errors.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv failed with 4 errors.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv failed with 1 errors.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv failed with 3 errors.
+# Compile of fork.sv failed with 1 errors.
+# Compile of fork3.sv failed with 1 errors.
+# Compile of fork4.sv failed with 2 errors.
+# Compile of join.sv failed with 1 errors.
+# Compile of join3.sv failed with 1 errors.
+# 28 compiles, 8 failed with 14 errors.
+# Compile of issue.sv failed with 17 errors.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv failed with 17 errors.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv failed with 1 errors.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv failed with 3 errors.
+# Compile of fork.sv failed with 1 errors.
+# Compile of fork3.sv failed with 1 errors.
+# Compile of fork4.sv failed with 2 errors.
+# Compile of join.sv failed with 1 errors.
+# Compile of join3.sv failed with 1 errors.
+# 28 compiles, 8 failed with 27 errors.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv failed with 17 errors.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv failed with 1 errors.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv failed with 3 errors.
+# Compile of fork.sv failed with 1 errors.
+# Compile of fork3.sv failed with 1 errors.
+# Compile of fork4.sv failed with 2 errors.
+# Compile of join.sv failed with 1 errors.
+# Compile of join3.sv failed with 1 errors.
+# 28 compiles, 8 failed with 27 errors.
+# Compile of issue.sv failed with 2 errors.
+# Compile of issue.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv failed with 1 errors.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv failed with 3 errors.
+# Compile of fork.sv failed with 1 errors.
+# Compile of fork3.sv failed with 1 errors.
+# Compile of fork4.sv failed with 2 errors.
+# Compile of join.sv failed with 1 errors.
+# Compile of join3.sv failed with 1 errors.
+# 28 compiles, 7 failed with 10 errors.
+# Compile of controler.sv failed with 1 errors.
+# Compile of controler.sv failed with 1 errors.
+# Compile of controler.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv failed with 3 errors.
+# Compile of fork.sv failed with 1 errors.
+# Compile of fork3.sv failed with 1 errors.
+# Compile of fork4.sv failed with 2 errors.
+# Compile of join.sv failed with 1 errors.
+# Compile of join3.sv failed with 1 errors.
+# 28 compiles, 6 failed with 9 errors.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv failed with 2 errors.
+# Compile of fork3.sv failed with 1 errors.
+# Compile of fork4.sv failed with 2 errors.
+# Compile of join.sv failed with 2 errors.
+# Compile of join3.sv failed with 1 errors.
+# 28 compiles, 5 failed with 8 errors.
+# Compile of fork.sv failed with 2 errors.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv failed with 1 errors.
+# Compile of fork4.sv failed with 2 errors.
+# Compile of join.sv was successful.
+# Compile of join3.sv failed with 1 errors.
+# 28 compiles, 3 failed with 4 errors.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv failed with 3 errors.
+# 28 compiles, 1 failed with 3 errors.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# 28 compiles, 0 failed with no errors.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv failed with 1 errors.
+# 29 compiles, 1 failed with 1 error.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv failed with 2 errors.
+# 29 compiles, 1 failed with 2 errors.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+# Compile of tbench_acon.sv was successful.
+vsim work.tbench_acon
+# vsim work.tbench_acon 
+# Start time: 12:52:12 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_acon
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.join2
+# Loading work.fork3
+# Loading work.join3
+# Loading work.fork4
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_ife/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_rfr/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_pcs/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_pcs File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_lsu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_pca/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_rfw/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_ife/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_iss/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(27): Variable '/tbench_acon/aco/f_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(42).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_lsu/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_rfw/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_pca/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+add wave -position end  sim:/tbench_acon/aco/rst_ni
+add wave -position end  sim:/tbench_acon/aco/req_j_ife
+add wave -position end  sim:/tbench_acon/aco/ack_j_ife
+add wave -position end  sim:/tbench_acon/aco/req_f_dec
+add wave -position end  sim:/tbench_acon/aco/ack_f_dec
+add wave -position end  sim:/tbench_acon/aco/req_j_iss
+add wave -position end  sim:/tbench_acon/aco/ack_j_iss
+add wave -position end  sim:/tbench_acon/aco/req_f_iss
+add wave -position end  sim:/tbench_acon/aco/ack_f_iss
+add wave -position end  sim:/tbench_acon/aco/req_f_alu
+add wave -position end  sim:/tbench_acon/aco/ack_f_alu
+add wave -position end  sim:/tbench_acon/aco/req_j_lsu
+add wave -position end  sim:/tbench_acon/aco/ack_j_lsu
+add wave -position end  sim:/tbench_acon/aco/req_j_rfw
+add wave -position end  sim:/tbench_acon/aco/ack_j_rfw
+add wave -position end  sim:/tbench_acon/aco/req_j_pca
+add wave -position end  sim:/tbench_acon/aco/ack_j_pca
+add wave -position end  sim:/tbench_acon/aco/req_rst
+add wave -position end  sim:/tbench_acon/aco/ack_levent
+add wave -position end  sim:/tbench_acon/aco/req_ife2dec
+add wave -position end  sim:/tbench_acon/aco/ack_dec2ife
+add wave -position end  sim:/tbench_acon/aco/req_dec2rfr
+add wave -position end  sim:/tbench_acon/aco/ack_rfr2dec
+add wave -position end  sim:/tbench_acon/aco/req_dec2pcs
+add wave -position end  sim:/tbench_acon/aco/ack_pcs2dec
+add wave -position end  sim:/tbench_acon/aco/req_dec2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2dec
+add wave -position end  sim:/tbench_acon/aco/req_rfr2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2rfr
+add wave -position end  sim:/tbench_acon/aco/req_pcs2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2pcs
+add wave -position end  sim:/tbench_acon/aco/req_iss2alu
+add wave -position end  sim:/tbench_acon/aco/ack_alu2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2lsu
+add wave -position end  sim:/tbench_acon/aco/ack_lsu2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2pca
+add wave -position end  sim:/tbench_acon/aco/ack_pca2iss
+add wave -position end  sim:/tbench_acon/aco/req_alu2pca
+add wave -position end  sim:/tbench_acon/aco/ack_pca2alu
+add wave -position end  sim:/tbench_acon/aco/req_pca2ife
+add wave -position end  sim:/tbench_acon/aco/ack_ife2pca
+add wave -position end  sim:/tbench_acon/aco/req_alu2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2alu
+add wave -position end  sim:/tbench_acon/aco/req_alu2lsu
+add wave -position end  sim:/tbench_acon/aco/ack_lsu2alu
+add wave -position end  sim:/tbench_acon/aco/req_lsu2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2lsu
+add wave -position end  sim:/tbench_acon/aco/req_moa
+run
+run
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+quit -sim
+# End time: 12:54:04 on May 02,2020, Elapsed time: 0:01:52
+# Errors: 0, Warnings: 17, Suppressed Warnings: 10
+vsim work.tbench_acon
+# vsim work.tbench_acon 
+# Start time: 12:54:14 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_acon
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.join2
+# Loading work.fork3
+# Loading work.join3
+# Loading work.fork4
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_ife/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_rfr/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_pcs/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_pcs File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_lsu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_pca/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_rfw/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_ife/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_iss/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(27): Variable '/tbench_acon/aco/f_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(42).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_lsu/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_rfw/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_pca/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+add wave -position end  sim:/tbench_acon/aco/rst_ni
+add wave -position end  sim:/tbench_acon/aco/req_j_ife
+add wave -position end  sim:/tbench_acon/aco/ack_j_ife
+add wave -position end  sim:/tbench_acon/aco/req_f_dec
+add wave -position end  sim:/tbench_acon/aco/ack_f_dec
+add wave -position end  sim:/tbench_acon/aco/req_j_iss
+add wave -position end  sim:/tbench_acon/aco/ack_j_iss
+add wave -position end  sim:/tbench_acon/aco/req_f_iss
+add wave -position end  sim:/tbench_acon/aco/ack_f_iss
+add wave -position end  sim:/tbench_acon/aco/req_f_alu
+add wave -position end  sim:/tbench_acon/aco/ack_f_alu
+add wave -position end  sim:/tbench_acon/aco/req_j_lsu
+add wave -position end  sim:/tbench_acon/aco/ack_j_lsu
+add wave -position end  sim:/tbench_acon/aco/req_j_rfw
+add wave -position end  sim:/tbench_acon/aco/ack_j_rfw
+add wave -position end  sim:/tbench_acon/aco/req_j_pca
+add wave -position end  sim:/tbench_acon/aco/ack_j_pca
+add wave -position end  sim:/tbench_acon/aco/ack_levent
+add wave -position end  sim:/tbench_acon/aco/req_ife2dec
+add wave -position end  sim:/tbench_acon/aco/ack_dec2ife
+add wave -position end  sim:/tbench_acon/aco/req_dec2rfr
+add wave -position end  sim:/tbench_acon/aco/ack_rfr2dec
+add wave -position end  sim:/tbench_acon/aco/req_dec2pcs
+add wave -position end  sim:/tbench_acon/aco/ack_pcs2dec
+add wave -position end  sim:/tbench_acon/aco/req_dec2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2dec
+add wave -position end  sim:/tbench_acon/aco/req_rfr2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2rfr
+add wave -position end  sim:/tbench_acon/aco/req_pcs2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2pcs
+add wave -position end  sim:/tbench_acon/aco/req_iss2alu
+add wave -position end  sim:/tbench_acon/aco/ack_alu2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2lsu
+add wave -position end  sim:/tbench_acon/aco/ack_lsu2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2pca
+add wave -position end  sim:/tbench_acon/aco/ack_pca2iss
+add wave -position end  sim:/tbench_acon/aco/req_alu2pca
+add wave -position end  sim:/tbench_acon/aco/ack_pca2alu
+add wave -position end  sim:/tbench_acon/aco/req_pca2ife
+add wave -position end  sim:/tbench_acon/aco/ack_ife2pca
+add wave -position end  sim:/tbench_acon/aco/req_alu2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2alu
+add wave -position end  sim:/tbench_acon/aco/req_alu2lsu
+add wave -position end  sim:/tbench_acon/aco/ack_lsu2alu
+add wave -position end  sim:/tbench_acon/aco/req_lsu2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2lsu
+add wave -position end  sim:/tbench_acon/aco/req_moa
+run
+run
+quit -sim
+# End time: 12:59:20 on May 02,2020, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 17, Suppressed Warnings: 10
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv failed with 1 errors.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 1 failed with 1 error.
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+vsim work.tbench_acon
+# vsim work.tbench_acon 
+# Start time: 13:00:00 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_acon
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork3
+# Loading work.join3
+# Loading work.fork4
+# Loading work.join2
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_ife/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_rfr/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_pcs/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_pcs File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_lsu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_pca/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_rfw/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_iss/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(27): Variable '/tbench_acon/aco/f_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(42).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_lsu/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_rfw/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_pca/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+add wave -position end  sim:/tbench_acon/rst
+add wave -position end  sim:/tbench_acon/start
+run
+add wave -position end  sim:/tbench_acon/aco/rst_ni
+add wave -position end  sim:/tbench_acon/aco/req_rst
+add wave -position end  sim:/tbench_acon/aco/req_j_ife
+add wave -position end  sim:/tbench_acon/aco/ack_j_ife
+add wave -position end  sim:/tbench_acon/aco/req_f_dec
+add wave -position end  sim:/tbench_acon/aco/ack_f_dec
+add wave -position end  sim:/tbench_acon/aco/req_j_iss
+add wave -position end  sim:/tbench_acon/aco/ack_j_iss
+add wave -position end  sim:/tbench_acon/aco/req_f_iss
+add wave -position end  sim:/tbench_acon/aco/ack_f_iss
+add wave -position end  sim:/tbench_acon/aco/req_f_alu
+add wave -position end  sim:/tbench_acon/aco/ack_f_alu
+add wave -position end  sim:/tbench_acon/aco/req_j_lsu
+add wave -position end  sim:/tbench_acon/aco/ack_j_lsu
+add wave -position end  sim:/tbench_acon/aco/req_j_rfw
+add wave -position end  sim:/tbench_acon/aco/ack_j_rfw
+add wave -position end  sim:/tbench_acon/aco/req_j_pca
+add wave -position end  sim:/tbench_acon/aco/ack_j_pca
+add wave -position end  sim:/tbench_acon/aco/req_ife2dec
+add wave -position end  sim:/tbench_acon/aco/ack_dec2ife
+add wave -position end  sim:/tbench_acon/aco/req_dec2rfr
+add wave -position end  sim:/tbench_acon/aco/ack_rfr2dec
+add wave -position end  sim:/tbench_acon/aco/req_dec2pcs
+add wave -position end  sim:/tbench_acon/aco/ack_pcs2dec
+add wave -position end  sim:/tbench_acon/aco/req_dec2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2dec
+add wave -position end  sim:/tbench_acon/aco/req_rfr2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2rfr
+add wave -position end  sim:/tbench_acon/aco/req_pcs2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2pcs
+add wave -position end  sim:/tbench_acon/aco/req_iss2alu
+add wave -position end  sim:/tbench_acon/aco/ack_alu2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2lsu
+add wave -position end  sim:/tbench_acon/aco/ack_lsu2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2pca
+add wave -position end  sim:/tbench_acon/aco/ack_pca2iss
+add wave -position end  sim:/tbench_acon/aco/req_alu2pca
+add wave -position end  sim:/tbench_acon/aco/ack_pca2alu
+add wave -position end  sim:/tbench_acon/aco/req_pca2ife
+add wave -position end  sim:/tbench_acon/aco/ack_ife2pca
+add wave -position end  sim:/tbench_acon/aco/req_alu2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2alu
+add wave -position end  sim:/tbench_acon/aco/req_alu2lsu
+add wave -position end  sim:/tbench_acon/aco/ack_lsu2alu
+add wave -position end  sim:/tbench_acon/aco/req_lsu2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2lsu
+add wave -position end  sim:/tbench_acon/aco/req_moa
+run
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_ife/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_rfr/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_pcs/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_pcs File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_lsu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_pca/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(16): Variable '/tbench_acon/aco/ctl_rfw/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_iss/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(27): Variable '/tbench_acon/aco/f_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(42).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/f_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_lsu/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_rfw/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_pca/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/j_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+run
+quit -sim
+# End time: 13:04:49 on May 02,2020, Elapsed time: 0:04:49
+# Errors: 0, Warnings: 32, Suppressed Warnings: 20
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+vsim work.tbench_acon
+# vsim work.tbench_acon 
+# Start time: 13:05:01 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_acon
+# Loading work.async_controler
+# Loading work.controler
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'controler' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_acon/aco/ctl_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# Loading work.c_element
+# Loading work.fork3
+# Loading work.join3
+# Loading work.fork4
+# Loading work.join2
+# Error loading design
+# End time: 13:05:01 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+vsim work.tbench_acon
+# vsim work.tbench_acon 
+# Start time: 13:05:33 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_acon
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork3
+# Loading work.join3
+# Loading work.fork4
+# Loading work.join2
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_ife/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_rfr/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_pcs/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_pcs File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_lsu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_pca/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_rfw/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_iss/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(27): Variable '/tbench_acon/aco/f_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(42).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_lsu/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_rfw/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_pca/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+add wave -position end  sim:/tbench_acon/aco/rst_ni
+add wave -position end  sim:/tbench_acon/aco/req_rst
+add wave -position end  sim:/tbench_acon/aco/req_j_ife
+add wave -position end  sim:/tbench_acon/aco/ack_j_ife
+add wave -position end  sim:/tbench_acon/aco/req_f_dec
+add wave -position end  sim:/tbench_acon/aco/ack_f_dec
+add wave -position end  sim:/tbench_acon/aco/req_j_iss
+add wave -position end  sim:/tbench_acon/aco/ack_j_iss
+add wave -position end  sim:/tbench_acon/aco/req_f_iss
+add wave -position end  sim:/tbench_acon/aco/ack_f_iss
+add wave -position end  sim:/tbench_acon/aco/req_f_alu
+add wave -position end  sim:/tbench_acon/aco/ack_f_alu
+add wave -position end  sim:/tbench_acon/aco/req_j_lsu
+add wave -position end  sim:/tbench_acon/aco/ack_j_lsu
+add wave -position end  sim:/tbench_acon/aco/req_j_rfw
+add wave -position end  sim:/tbench_acon/aco/ack_j_rfw
+add wave -position end  sim:/tbench_acon/aco/req_j_pca
+add wave -position end  sim:/tbench_acon/aco/ack_j_pca
+add wave -position end  sim:/tbench_acon/aco/req_ife2dec
+add wave -position end  sim:/tbench_acon/aco/ack_dec2ife
+add wave -position end  sim:/tbench_acon/aco/req_dec2rfr
+add wave -position end  sim:/tbench_acon/aco/ack_rfr2dec
+add wave -position end  sim:/tbench_acon/aco/req_dec2pcs
+add wave -position end  sim:/tbench_acon/aco/ack_pcs2dec
+add wave -position end  sim:/tbench_acon/aco/req_dec2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2dec
+add wave -position end  sim:/tbench_acon/aco/req_rfr2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2rfr
+add wave -position end  sim:/tbench_acon/aco/req_pcs2iss
+add wave -position end  sim:/tbench_acon/aco/ack_iss2pcs
+add wave -position end  sim:/tbench_acon/aco/req_iss2alu
+add wave -position end  sim:/tbench_acon/aco/ack_alu2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2lsu
+add wave -position end  sim:/tbench_acon/aco/ack_lsu2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2iss
+add wave -position end  sim:/tbench_acon/aco/req_iss2pca
+add wave -position end  sim:/tbench_acon/aco/ack_pca2iss
+add wave -position end  sim:/tbench_acon/aco/req_alu2pca
+add wave -position end  sim:/tbench_acon/aco/ack_pca2alu
+add wave -position end  sim:/tbench_acon/aco/req_pca2ife
+add wave -position end  sim:/tbench_acon/aco/ack_ife2pca
+add wave -position end  sim:/tbench_acon/aco/req_alu2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2alu
+add wave -position end  sim:/tbench_acon/aco/req_alu2lsu
+add wave -position end  sim:/tbench_acon/aco/ack_lsu2alu
+add wave -position end  sim:/tbench_acon/aco/req_lsu2rfw
+add wave -position end  sim:/tbench_acon/aco/ack_rfw2lsu
+add wave -position end  sim:/tbench_acon/aco/req_moa
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 13:08:02 on May 02,2020, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 16, Suppressed Warnings: 10
+vsim work.tbench_controler
+# vsim work.tbench_controler 
+# Start time: 13:08:08 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_controler
+# Loading work.controler
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tbench_controler' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_controler/con File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# Loading work.c_element
+# Error loading design
+# End time: 13:08:08 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+vsim work.tbench_controler
+# vsim work.tbench_controler 
+# Start time: 13:08:39 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_controler
+# Loading work.controler
+# Loading work.c_element
+# ** Warning: (vsim-3017) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv(8): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_controler/con File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3722) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv(8): [TFMPC] - Missing connection for port 'rst_ni'.
+# ** Warning: (vsim-3017) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv(18): [TFMPC] - Too few port connections. Expected 5, found 4.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_controler/con_art File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3722) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv(18): [TFMPC] - Missing connection for port 'rst_ni'.
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_controler/con/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_controler/con File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_controler/con_art/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_controler/con_art File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv(29): Variable '/tbench_controler/bl_ack_out', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv(18).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_controler File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv
+add wave -position end  sim:/tbench_controler/req_in
+add wave -position end  sim:/tbench_controler/bl_ack_out
+add wave -position end  sim:/tbench_controler/req_out
+add wave -position end  sim:/tbench_controler/anack_in
+add wave -position end  sim:/tbench_controler/bl_ack_out2
+add wave -position end  sim:/tbench_controler/req_out2
+run
+run
+quit -sim
+# End time: 13:09:56 on May 02,2020, Elapsed time: 0:01:17
+# Errors: 0, Warnings: 7, Suppressed Warnings: 10
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+vsim work.tbench_acon
+# vsim work.tbench_acon 
+# Start time: 13:10:01 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_acon
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork3
+# Loading work.join3
+# Loading work.fork4
+# Loading work.join2
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_ife/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_rfr/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_pcs/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_pcs File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_lsu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_pca/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_rfw/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_iss/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(27): Variable '/tbench_acon/aco/f_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(42).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_lsu/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_rfw/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_pca/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+add wave -position end sim:/tbench_acon/aco/*
+run
+quit -sim
+# End time: 13:10:41 on May 02,2020, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 16, Suppressed Warnings: 10
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+vsim work.tbench_acon
+# vsim work.tbench_acon 
+# Start time: 13:10:47 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_acon
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork3
+# Loading work.join3
+# Loading work.fork4
+# Loading work.join2
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_ife/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_rfr/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_pcs/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_pcs File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_lsu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_pca/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_rfw/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_iss/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(27): Variable '/tbench_acon/aco/f_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(42).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_lsu/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_rfw/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_pca/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+add wave -position end sim:/tbench_acon/aco/*
+run
+quit -sim
+# End time: 13:16:43 on May 02,2020, Elapsed time: 0:05:56
+# Errors: 0, Warnings: 16, Suppressed Warnings: 10
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+vsim work.tbench_acon
+# vsim work.tbench_acon 
+# Start time: 13:16:48 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_acon
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork3
+# Loading work.join3
+# Loading work.fork4
+# Loading work.join2
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_ife/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_ife File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_rfr/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_pcs/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_pcs File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_lsu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_pca/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(19): Variable '/tbench_acon/aco/ctl_rfw/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv(22).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_dec/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_iss/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(27): Variable '/tbench_acon/aco/f_iss/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv(42).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(23): Variable '/tbench_acon/aco/f_alu/ack_in_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/f_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_lsu/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(23): Variable '/tbench_acon/aco/j_rfw/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv(32).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(18): Variable '/tbench_acon/aco/j_pca/req_out_o', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv(21).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_acon/aco/j_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+add wave -position end sim:/tbench_acon/aco/*
+run
+# Compile of tbench_c.sv was successful.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# 29 compiles, 0 failed with no errors.
+# Load canceled
+quit -sim
+# End time: 13:28:44 on May 02,2020, Elapsed time: 0:11:56
+# Errors: 1, Warnings: 16, Suppressed Warnings: 10

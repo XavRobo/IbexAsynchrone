@@ -1,4 +1,11 @@
-/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
+/home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_acon.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_acon.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tbench_acon
+
+Top level modules:
+	tbench_acon
+
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module register_file
 
@@ -20,12 +27,19 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	--none--
 
-} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_c.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_c.sv
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module tbench
+-- Compiling module async_controler
 
 Top level modules:
-	tbench
+	async_controler
+
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fork4
+
+Top level modules:
+	fork4
 
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_lsu.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_lsu.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -42,6 +56,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tbench_alu
 
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fork2
+
+Top level modules:
+	fork2
+
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_controler.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tbench_controler
+
+Top level modules:
+	tbench_controler
+
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tmem.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tmem.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tmem
@@ -52,10 +80,16 @@ Top level modules:
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_issue.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_issue.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module tbench_issue
--- Importing package pkg
 
 Top level modules:
 	tbench_issue
+
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module fork3
+
+Top level modules:
+	fork3
 
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_alu.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_alu.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -78,6 +112,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	if_stage_in
+
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module controler
+
+Top level modules:
+	controler
+
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module join2
+
+Top level modules:
+	join2
 
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/tbench_decode_imm.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/tbench_decode_imm.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -108,6 +156,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	issue
 
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/lsu_out.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/lsu_out.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lsu_out
+
+Top level modules:
+	lsu_out
+
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module alu
@@ -116,12 +171,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	alu
 
-} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/lsu_out.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/lsu_out.sv
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module lsu_out
+-- Compiling module join3
 
 Top level modules:
-	lsu_out
+	join3
 
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_RF.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_RF.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
@@ -130,13 +185,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tbench_rf
 
-} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/c_element.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/c_element.sv
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module c_element
-
-Top level modules:
-	c_element
-
 } {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/decode.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/decode.sv
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module decode
@@ -144,5 +192,12 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	decode
+
+} {} {}} /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/c_element.sv {1 {vlog -work work -sv -stats=none /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/c_element.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module c_element
+
+Top level modules:
+	c_element
 
 } {} {}}

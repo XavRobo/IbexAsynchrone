@@ -204,4 +204,8 @@ Text Label 9950 2700 0    50   ~ 0
 req_j_a
 Text Label 7500 2700 3    50   ~ 0
 req_f_a
+Text Label 3350 2700 0    50   ~ 0
+ife2dec
+Text Label 11000 3050 0    50   ~ 0
+req_moa
 $EndSCHEMATC
