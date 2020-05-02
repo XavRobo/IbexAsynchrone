@@ -2,7 +2,7 @@
 
 package pkg;
 
-int unsigned offset = 4'h8000;
+int unsigned offset = 255;
 
 typedef enum logic [4:0] {
 	// Arithmetics

@@ -11,7 +11,7 @@ module lsu_out(
 	//output logic		lsu_err_o,
 
 	//interface LSU / Mem
-	input  logic [31:0] data_rdata_i,
+	input  logic [31:0] data_rdata_i
 	//input  logic 		data_err_i	
 );
 
