@@ -14,15 +14,8 @@ module fork2(
 	assign req_out1_o = req_in_i;
 	assign req_out2_o = req_in_i;
 
-	always_ff @(negedge(rst_ni)) begin
-		/*
-		req_out1_o <= 1'b0;
-		req_out2_o <= 1'b0;
-		*/
-		ack_in_o <= 1'b0;
-	end
-
 	c_element muller(
+	 .rst(rst_ni),
 	 .a(ack_out1_i),
 	 .b(ack_out2_i),
 	 .c(ack_in_o)

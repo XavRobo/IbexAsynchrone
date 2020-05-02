@@ -1,12 +1,12 @@
 module async_controler(
 	input  logic rst_ni,
-	input  logic req_rst
+	input  logic req_start
 );
 
 timeunit  1ns;
 timeprecision 1ns;
 
-logic req_j_ife, ack_j_ife, req_f_dec, ack_f_dec, req_j_iss, ack_j_iss;
+logic req_f_dec, ack_f_dec, req_j_iss, ack_j_iss;
 logic req_f_iss, ack_f_iss, req_f_alu, ack_f_alu, req_j_lsu, ack_j_lsu;
 logic req_j_rfw, ack_j_rfw, req_j_pca, ack_j_pca;
 
@@ -20,7 +20,7 @@ logic req_moa;
 controler ctl_ife (
 	.rst_ni(rst_ni), 
 
-	.req_in_i(req_pca2ife | req_rst),
+	.req_in_i(req_pca2ife | req_start),
 	.ack_out_i(ack_dec2ife),
 
 	.req_out_o(req_ife2dec),
@@ -98,7 +98,7 @@ controler ctl_pca (
 );
 
 //test pour la tbench
-defparam ctl_pca.DELAY = 20;
+defparam ctl_pca.DELAY = 150;
 
 controler ctl_rfw (
 	.rst_ni(rst_ni), 

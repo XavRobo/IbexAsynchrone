@@ -8,12 +8,12 @@ timeprecision 1ns;
 
 	async_controler aco(
 		.rst_ni(rst),
-		.req_rst(start)
+		.req_start(start)
 	);
 
 	initial begin
-		rst =1;
-		#15 rst =0;
+		rst = 1; start = 0;
+		#200 rst =0;
 		#5 start = 1;
 		#1 start = 0;
 	end

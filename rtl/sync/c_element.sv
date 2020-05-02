@@ -5,8 +5,8 @@ input  logic b,
 output logic c
 );
 
-reg yp;
-assign yp = y;
+logic yp,y;
+assign yp = c & ~rst;
 
 always_comb begin
   y = (a & b) | (yp & (a | b));

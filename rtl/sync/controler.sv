@@ -1,7 +1,7 @@
 module controler #(
 	parameter DELAY = 5
 ) (
-	input  logic rst_ni, 
+	input  logic rst_ni,
 
 	input  logic req_in_i,
 	input  logic ack_out_i,
@@ -13,13 +13,8 @@ module controler #(
 timeunit  1ns;
 timeprecision 1ns;
 
-	//parameter DELAY = 5;
-
-	always_ff @(negedge(rst_ni)) begin //TODO gestion des rst
-		ack_in_o  <= 1'b0;
-	end
-
 	c_element muller(
+	 .rst(rst_ni),
 	 .a(req_in_i),
 	 .b(~ack_out_i),
 	 .c(ack_in_o)

@@ -17,29 +17,22 @@ module fork4(
 	wire ack_t1;
 	wire ack_t2;
 
-	always_ff @(negedge(rst_ni)) begin
-		/*
-		req_out1_o <= 1'b0;
-		req_out2_o <= 1'b0;
-		req_out3_o <= 1'b0;
-		req_out4_o <= 1'b0;
-		*/
-		ack_in_o <= 1'b0;
-	end
-
 	c_element muller1(
+	 .rst(rst_ni),
 	 .a(ack_out1_i),
 	 .b(ack_out2_i),
 	 .c(ack_t1)
 	);
 
 	c_element muller2(
+	 .rst(rst_ni),
 	 .a(ack_out3_i),
 	 .b(ack_out4_i),
 	 .c(ack_t2)
 	);
 
 	c_element muller3(
+	 .rst(rst_ni),
 	 .a(ack_t1),
 	 .b(ack_t2),
 	 .c(ack_in_o)
