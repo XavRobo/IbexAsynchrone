@@ -1974,3 +1974,164 @@ run
 run
 run
 run
+quit -sim
+# End time: 15:22:35 on May 02,2020, Elapsed time: 1:15:45
+# Errors: 0, Warnings: 0, Suppressed Warnings: 10
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv failed with 1 errors.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# 29 compiles, 1 failed with 1 error.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# 29 compiles, 0 failed with no errors.
+vsim work.tbench_issue
+# vsim work.tbench_issue 
+# Start time: 15:23:06 on May 02,2020
+# Loading sv_std.std
+# Loading work.pkg
+# Loading work.tbench_issue
+# Loading work.issue
+# Loading work.decode
+add wave -position end sim:/tbench_issue/issue_m/*
+run
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# 29 compiles, 0 failed with no errors.
+quit -sim
+# End time: 15:26:39 on May 02,2020, Elapsed time: 0:03:33
+# Errors: 0, Warnings: 0, Suppressed Warnings: 10
+vsim work.tbench_issue
+# vsim work.tbench_issue 
+# Start time: 15:26:47 on May 02,2020
+# Loading sv_std.std
+# Loading work.pkg
+# Loading work.tbench_issue
+# Loading work.issue
+# Loading work.decode
+add wave -position end sim:/tbench_issue/issue_m/*
+run
+quit -sim
+# End time: 15:30:50 on May 02,2020, Elapsed time: 0:04:03
+# Errors: 0, Warnings: 0, Suppressed Warnings: 10
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# 29 compiles, 0 failed with no errors.
+vsim work.tbench_issue
+# vsim work.tbench_issue 
+# Start time: 15:30:57 on May 02,2020
+# Loading sv_std.std
+# Loading work.pkg
+# Loading work.tbench_issue
+# Loading work.issue
+# Loading work.decode
+add wave -position end sim:/tbench_issue/issue_m/*
+run
+run
+run
