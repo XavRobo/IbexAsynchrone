@@ -1,6 +1,6 @@
 module pc_alu(
 	//control signal
-	input  logic 		req_i,
+	input  logic 		en_i,
 	input  logic 		rst_ni,
 
 	//From Issue
@@ -11,11 +11,11 @@ module pc_alu(
 	//From ALU
 	input  logic [31:0] op_bool_i, //boolean result of the comparaison
 
-	//To IF
+	//To IF or Issue
 	output logic [31:0] pc_next_o
 );
 
-	always_ff @(posedge(req_i)) begin
+	always_ff @(posedge(en_i)) begin
 		if(branch_bool_i & ~op_bool_i[0]) begin
 			pc_next_o <= operand_a_i + 4;
 		end

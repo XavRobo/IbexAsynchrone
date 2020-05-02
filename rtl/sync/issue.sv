@@ -1,7 +1,6 @@
 module issue(
 	//control signal
-	input  logic req_i,
-	input  logic rst_ni,
+	input  logic en_i,
 
 	//sortie de RF
 	input  logic [31:0] rf_rdata_a_i,
@@ -65,7 +64,7 @@ module issue(
 
 	logic [31:0] operand_b;
 
-	always_ff @(posedge(req_i)) begin
+	always_ff @(posedge(en_i)) begin
 		unique case (type_imm_b_i)
 			IMM_B_I: begin
 				operand_b <= imm_i_type_i;

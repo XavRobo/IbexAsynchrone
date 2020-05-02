@@ -1,12 +1,10 @@
 //Written by Xavier Lesage
 
-//TODO: gestion des rst
 //TODO: gestion du boot
 
 module if_stage_in(
 	//control signal
-	input  logic        req_i,
-	input  logic		rst_ni,
+	input  logic        en_i,
 
 	//interface ext / fetch
 	//input  logic [31:0] boot_addr_i,
@@ -18,7 +16,7 @@ module if_stage_in(
 	output logic [31:0] instr_addr_o
 );
 
-always_ff @(posedge(req_i)) begin
+always_ff @(posedge(en_i)) begin
 	instr_addr_o <= pc_addr_i;
 end
 

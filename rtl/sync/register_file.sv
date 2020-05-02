@@ -7,10 +7,11 @@ module register_file #(
 	parameter int unsigned DataWidth = 32	
 ) (
 	//control signal
+	input  logic en_r_i,
+	input  logic en_w_i,
 	input  logic req_ra_i,
 	input  logic req_rb_i,
 	input  logic req_w_i,
-	input  logic rst_ni,
 
 	//Read port R1
     input  logic [4:0]           raddr_a_i,
@@ -44,26 +45,27 @@ module register_file #(
 	// READ //
 	//////////
 
-	always_ff @(posedge(req_ra_i)) begin
-		rdata_a_o <= mem[raddr_a_int];
-	end
-
-	always_ff @(posedge(req_rb_i)) begin
-		rdata_b_o <= mem[raddr_b_int];
+	always_ff @(posedge(en_r_i)) begin
+		if(req_ra_i) begin
+			rdata_a_o <= mem[raddr_a_int];
+		end
+		if(req_rb_i) begin
+			rdata_b_o <= mem[raddr_b_int];
+		end
 	end
 
 	///////////
 	// WRITE //
 	///////////
 
-	//TODO: Ecriture dans les registres
-	// un essai simpliste
-	always_ff @(posedge(req_w_i)) begin
-		if(soursel_i) begin
-			mem[waddr_a_int] <= wdata_alu_i;
-		end
-		else begin
-			mem[waddr_a_int] <= wdata_lsu_i;
+	always_ff @(posedge(en_w_i)) begin
+		if(req_w_i) begin
+			if(soursel_i) begin
+				mem[waddr_a_int] <= wdata_alu_i;
+			end
+			else begin
+				mem[waddr_a_int] <= wdata_lsu_i;
+			end
 		end
 	end	
 

@@ -1,6 +1,6 @@
 module alu (
-	input logic req_i,
-	input logic rst_ni,
+	input  logic en_i,
+	input  logic req_i,
 
 	input  pkg::alu_op  operator_i, //TODO: modifier avec le package
 	input  logic [31:0] op_a_i,
@@ -14,10 +14,12 @@ module alu (
 	logic [31:0] operand_b;
 	pkg::alu_op  operateur;
 
-	always_ff @(posedge(req_i)) begin
-		operand_a <= op_a_i;
-		operand_b <= op_b_i;
-		operateur <= operator_i;
+	always_ff @(posedge(en_i)) begin
+		if(req_i) begin
+			operand_a <= op_a_i;
+			operand_b <= op_b_i;
+			operateur <= operator_i;
+		end
 	end
 	
 	logic [32:0] shift_a_ext;

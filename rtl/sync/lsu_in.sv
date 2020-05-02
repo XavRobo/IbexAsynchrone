@@ -5,7 +5,7 @@
 module lsu_in(
 	//control signal
 	input  logic        req_i,
-	input  logic		rst_ni,
+	input  logic 		en_i,
 
 	//interface LSU / Previous
 	input  logic		lsu_we_i,
@@ -18,10 +18,12 @@ module lsu_in(
 	output logic [31:0]	data_addr_o
 );
 
-always_ff @(posedge(req_i)) begin
-	data_we_o 	 <= lsu_we_i;
-	data_wdata_o <= lsu_wdata_i;
-	data_addr_o  <= lsu_addr_i;
+always_ff @(posedge(en_i)) begin
+	if(req_i) begin
+		data_we_o 	 <= lsu_we_i;
+		data_wdata_o <= lsu_wdata_i;
+		data_addr_o  <= lsu_addr_i;
+	end
 end
 
 endmodule

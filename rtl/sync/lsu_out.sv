@@ -4,8 +4,7 @@
 
 module lsu_out(
 	//control signal
-	input  logic        req_i,
-	input  logic		rst_ni,
+	input  logic        en_i,
 
 	//interface LSU / Next
 	output logic [31:0]	lsu_rdata_o,
@@ -16,7 +15,7 @@ module lsu_out(
 	//input  logic 		data_err_i	
 );
 
-always_ff @(posedge(req_i)) begin
+always_ff @(posedge(en_i)) begin
 	lsu_rdata_o  <= data_rdata_i;
 	//lsu_err_o 	 <= data_err_i;
 end

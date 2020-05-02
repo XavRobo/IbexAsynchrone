@@ -6,8 +6,7 @@
 
 module decode(
 	//control signal
-	input  logic        		  req_i,
-    input  logic        		  rst_ni,
+	input  logic        		  en_i,
 
     //from IF
     input  logic [31:0] 		  instr_rdata_i,
@@ -66,11 +65,9 @@ module decode(
 
 	logic [31:0] instr;
 
-	logic use_rs3;
-
 	opcode op;
 
-	always_ff @(posedge(req_i)) begin
+	always_ff @(posedge(en_i)) begin
 		//MAJ instruction
 		instr <= instr_rdata_i;
 
