@@ -1,5 +1,5 @@
 module join2(
-	input  logic rst_ni,
+	input  logic rst_i,
 
 	input  logic req_in1_i,
 	input  logic req_in2_i,
@@ -11,7 +11,7 @@ module join2(
 );
 
 	c_element muller(
-	 .rst(rst_ni),
+	 .rst(rst_i),
 	 .a(req_in1_i),
 	 .b(req_in2_i),
 	 .c(req_out_o)

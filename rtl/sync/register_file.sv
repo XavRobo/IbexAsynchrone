@@ -13,6 +13,8 @@ module register_file #(
 	input  logic req_rb_i,
 	input  logic req_w_i,
 
+	input  logic rst_i,
+
 	//Read port R1
     input  logic [4:0]           raddr_a_i,
     output logic [DataWidth-1:0] rdata_a_o,
@@ -60,7 +62,7 @@ module register_file #(
 
 	always_ff @(posedge(en_w_i)) begin
 		if(req_w_i) begin
-			if(soursel_i) begin
+			if(~soursel_i) begin
 				mem[waddr_a_int] <= wdata_alu_i;
 			end
 			else begin
@@ -68,5 +70,15 @@ module register_file #(
 			end
 		end
 	end	
+
+	///////////
+	// RESET //
+	///////////
+
+	always_ff @(negedge(rst_i)) begin
+		for(int i = 0; i < 128; i++) begin
+			mem[i] <= 32'b0;
+		end
+	end
 
 endmodule

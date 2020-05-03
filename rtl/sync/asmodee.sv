@@ -4,21 +4,19 @@ module asmodee(
 	input logic boot_i //charge boot addr
 );
 
-import pkg::*;
+timeunit  1ns;
+timeprecision 1ns;
 
-//used for boot
-logic start;
-//TODO
-//assign #10 start = rst_i;
+import pkg::*;
 
 //enable
 logic en_ife_in, en_ins_mem, en_ife_out;
 logic en_lsu_in, en_lsu_out, en_dat_mem;
-logic en_dec, en_rfr, en_iss, en_alu, en_pca, en_rfw;
+logic en_dec, en_rfr, en_iss, en_alu, en_pca, en_rfw, en_boo;
 
 async_controler tete(
 	.rst_i(rst_i),
-	.start_i(start),
+	.start_i(start_i),
 
 	.en_ife_in_o(en_ife_in),
 	.en_ins_mem_o(en_ins_mem),
@@ -34,13 +32,15 @@ async_controler tete(
 	.en_lsu_out_o(en_lsu_out),
 	
 	.en_pca_o(en_pca),
+	.en_boo_o(en_boo),
+	
 	.en_rfw_o(en_rfw)
 );
 
 // LOGIC BEGIN //
 
 //Issue / ALU
-logic alu_req, alu_operateur;
+logic alu_req;
 
 //Issue / PC ALU
 logic branch_bool;
@@ -55,7 +55,7 @@ logic soursel, req_rf_w;
 logic [31:0] operand_alu_a, operand_alu_b, operand_pc_alu_a, operand_pc_alu_b;   
 
 // IFE / MEM
-logic [31:0] pc_addr, instr_rdata;
+logic [31:0] pc_addr, instr_rdata, mon_addr;
 
 
 logic [31:0] instruction;
@@ -67,7 +67,7 @@ logic [31:0] imm_i_type, imm_s_type, imm_b_type, imm_u_type, imm_j_type, imm_o_t
 logic req_rf_ra, req_rf_rb, req_pc_alu, req_alu, req_data;
 
 //addr DECODE
-logic [4:0] rf_waddr, rf_raddr_a, rf_raddr_b;
+logic [4:0] waddr_rf, rf_waddr, rf_raddr_a, rf_raddr_b;
 
 //
 logic we_data;
@@ -75,7 +75,7 @@ logic we_data;
 //OP DECODE
 pkg::op_a_sel type_operand_a; pkg::op_b_sel type_operand_b;
 pkg::imm_b_sel type_imm_b;
-pkg::alu_op operateur_alu, operateur_alu_o;
+pkg::alu_op operateur_alu, alu_operateur;
 pkg::pc_op operateur_pc_alu;
 
 logic [31:0] rf_rdata_a, rf_rdata_b;
@@ -83,6 +83,8 @@ logic [31:0] rf_rdata_a, rf_rdata_b;
 logic [31:0] result_alu;
 
 logic [31:0] datmem_rdata;
+
+logic [31:0] boot_addr;
 
 logic we_datmem;
 logic [31:0] addr_datmem, wdata_datmem, data_rdata;
@@ -92,7 +94,7 @@ logic [31:0] addr_datmem, wdata_datmem, data_rdata;
 tinsmem insmem(
 	.req_i(en_ins_mem),
 
-	.instr_addr_i(pc_addr),
+	.instr_addr_i(mon_addr),
 
 	.instr_rdata_o(instr_rdata)
 );
@@ -105,11 +107,11 @@ if_stage_in ife_in(
 	.en_i(en_ife_in),
 
 	//interface ext / fetch
-	.pc_addr_i(instr_rdata),
+	.pc_addr_i(pc_addr),
 	
 
 	//interface fetch / MEM
-	.instr_addr_o(pc_addr)
+	.instr_addr_o(mon_addr)
 );
 
 if_stage_out ife_out(
@@ -180,6 +182,8 @@ register_file rf(
 	.req_ra_i(req_rf_ra),
 	.req_rb_i(req_rf_rb),
 	.req_w_i(req_rf_w),
+
+	.rst_i(rst_i),
 
 	//Read port R1
     .raddr_a_i(rf_raddr_a),
@@ -321,7 +325,7 @@ lsu_out lsu_out(
 pc_alu pca(
 	//control signal
 	.en_i(en_pca),
-	.boot_i(boot),
+	.boot_i(boot_i),
 
 	//From Issue
 	.operand_a_i(operand_pc_alu_a),
@@ -332,7 +336,16 @@ pc_alu pca(
 	.op_bool_i(result_alu), //boolean result of the comparaison
 
 	//To IF or Issue
-	.pc_next_o(pc_addr)
+	.pc_next_o(boot_addr)
+);
+
+boot boo(
+	//control signal
+	.en_i(en_boo),
+
+	.boot_addr_o(pc_addr), 
+	
+	.boot_addr_i(boot_addr)
 );
 
 // PC ALU END //

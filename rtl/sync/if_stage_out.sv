@@ -11,7 +11,7 @@ module if_stage_out(
 	//output logic 		insmem_err_o,
 	
 	//interface fetch / MEM
-	input  logic [31:0] instr_rdata_i,
+	input  logic [31:0] instr_rdata_i
 	//input  logic 		instr_err_i
 );
 

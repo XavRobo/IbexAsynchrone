@@ -1,5 +1,5 @@
 module fork2(
-	input  logic rst_ni,
+	input  logic rst_i,
 
 	input  logic ack_out1_i,
 	input  logic ack_out2_i,
@@ -15,7 +15,7 @@ module fork2(
 	assign req_out2_o = req_in_i;
 
 	c_element muller(
-	 .rst(rst_ni),
+	 .rst(rst_i),
 	 .a(ack_out1_i),
 	 .b(ack_out2_i),
 	 .c(ack_in_o)

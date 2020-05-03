@@ -62,42 +62,7 @@ module issue(
 
 	import pkg::*;
 
-	logic [31:0] operand_b;
-
 	always_ff @(posedge(en_i)) begin
-		unique case (type_imm_b_i)
-			IMM_B_I: begin
-				operand_b <= imm_i_type_i;
-			end
-			
-			IMM_B_S: begin
-				operand_b <= imm_s_type_i;
-			end
-
-			IMM_B_B: begin
-				operand_b <= imm_b_type_i;
-			end
-
-			IMM_B_U: begin
-				operand_b <= imm_u_type_i;
-			end
-
-			IMM_B_J: begin
-				operand_b <= imm_j_type_i;
-			end
-
-			IMM_B_O: begin
-				operand_b <= imm_o_type_i;
-			end
-
-			IMM_B_N: begin
-				operand_b <= imm_n_type_i;
-			end
-
-			default: begin
-				operand_b <= 0;
-			end
-		endcase
 
 		data_req_o 	 <= data_req_i;
 		req_alu_o    <= req_alu_i;
@@ -182,7 +147,39 @@ module issue(
 				end
 
 				OP_B_IMM: begin 
-					operand_alu_b_o <= operand_b;
+					unique case (type_imm_b_i)
+						IMM_B_I: begin
+							operand_alu_b_o <= imm_i_type_i;
+						end
+						
+						IMM_B_S: begin
+							operand_alu_b_o <= imm_s_type_i;
+						end
+			
+						IMM_B_B: begin
+							operand_alu_b_o <= imm_b_type_i;
+						end
+			
+						IMM_B_U: begin
+							operand_alu_b_o <= imm_u_type_i;
+						end
+			
+						IMM_B_J: begin
+							operand_alu_b_o <= imm_j_type_i;
+						end
+			
+						IMM_B_O: begin
+							operand_alu_b_o <= imm_o_type_i;
+						end
+			
+						IMM_B_N: begin
+							operand_alu_b_o <= imm_n_type_i;
+						end
+			
+						default: begin
+							operand_alu_b_o <= 0;
+						end
+					endcase
 				end
 			endcase
 			

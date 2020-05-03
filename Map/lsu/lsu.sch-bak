@@ -23,13 +23,13 @@ F3 "ack_in" I R 3500 2150 50
 F4 "req_o" O R 3500 1750 50 
 $EndSheet
 $Sheet
-S 4200 1650 650  600 
+S 4300 1550 600  650 
 U 5EA99702
 F0 "C2" 50
 F1 "Mullers_gate.sch" 50
-F2 "req_in" I L 4200 1750 50 
-F3 "ack_in" I R 4850 2150 50 
-F4 "req_o" O R 4850 1750 50 
+F2 "req_in" I T 4800 1550 50 
+F3 "ack_in" I B 4400 2200 50 
+F4 "req_o" O B 4800 2200 50 
 $EndSheet
 $Sheet
 S 6450 1650 650  600 

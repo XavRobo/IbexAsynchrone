@@ -2135,3 +2135,2756 @@ add wave -position end sim:/tbench_issue/issue_m/*
 run
 run
 run
+quit -sim
+# End time: 17:04:12 on May 02,2020, Elapsed time: 1:33:15
+# Errors: 0, Warnings: 0, Suppressed Warnings: 10
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv failed with 1 errors.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# 29 compiles, 1 failed with 1 error.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# 29 compiles, 0 failed with no errors.
+# Compile of package.sv was successful with warnings.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# 30 compiles, 0 failed with no errors.
+vsim work.tbench_boot
+# vsim work.tbench_boot 
+# Start time: 17:05:32 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_boot
+# Loading work.pkg
+# Loading work.pc_alu
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_boot.sv(9): [PCDPC] - Port size (32) does not match connection size (1) for port 'op_bool_i'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_boot/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end  sim:/tbench_boot/enable
+add wave -position end  sim:/tbench_boot/boot
+add wave -position end  sim:/tbench_boot/branch_bool
+add wave -position end  sim:/tbench_boot/op_bool
+add wave -position end  sim:/tbench_boot/operand_a
+add wave -position end  sim:/tbench_boot/operand_b
+add wave -position end  sim:/tbench_boot/pc_next
+run
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# 30 compiles, 0 failed with no errors.
+quit -sim
+# End time: 17:06:26 on May 02,2020, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 1, Suppressed Warnings: 10
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# 30 compiles, 0 failed with no errors.
+vsim work.tbench_boot
+# vsim work.tbench_boot 
+# Start time: 17:06:31 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_boot
+# Loading work.pkg
+# Loading work.pc_alu
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_boot.sv(9): [PCDPC] - Port size (32) does not match connection size (1) for port 'op_bool_i'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_boot/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end  sim:/tbench_boot/enable
+add wave -position end  sim:/tbench_boot/boot
+add wave -position end  sim:/tbench_boot/branch_bool
+add wave -position end  sim:/tbench_boot/op_bool
+add wave -position end  sim:/tbench_boot/operand_a
+add wave -position end  sim:/tbench_boot/operand_b
+add wave -position end  sim:/tbench_boot/pc_next
+run
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# 30 compiles, 0 failed with no errors.
+quit -sim
+# End time: 17:11:49 on May 02,2020, Elapsed time: 0:05:18
+# Errors: 0, Warnings: 1, Suppressed Warnings: 10
+vsim work.tbench_boot
+# vsim work.tbench_boot 
+# Start time: 17:11:51 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_boot
+# Loading work.pkg
+# Loading work.pc_alu
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_boot.sv(9): [PCDPC] - Port size (32) does not match connection size (1) for port 'op_bool_i'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_boot/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end  sim:/tbench_boot/enable
+add wave -position end  sim:/tbench_boot/boot
+add wave -position end  sim:/tbench_boot/branch_bool
+add wave -position end  sim:/tbench_boot/op_bool
+add wave -position end  sim:/tbench_boot/operand_a
+add wave -position end  sim:/tbench_boot/operand_b
+add wave -position end  sim:/tbench_boot/pc_next
+run
+# Break key hit
+quit -sim
+# End time: 18:01:17 on May 02,2020, Elapsed time: 0:49:26
+# Errors: 0, Warnings: 1, Suppressed Warnings: 10
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# 30 compiles, 0 failed with no errors.
+vsim work.tbench_boot
+# vsim work.tbench_boot 
+# Start time: 18:02:36 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_boot
+# Loading work.pkg
+# Loading work.pc_alu
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_boot.sv(9): [PCDPC] - Port size (32) does not match connection size (1) for port 'op_bool_i'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv(12).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_boot/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end  sim:/tbench_boot/enable
+add wave -position end  sim:/tbench_boot/boot
+add wave -position end  sim:/tbench_boot/branch_bool
+add wave -position end  sim:/tbench_boot/op_bool
+add wave -position end  sim:/tbench_boot/operand_a
+add wave -position end  sim:/tbench_boot/operand_b
+add wave -position end  sim:/tbench_boot/pc_next
+run
+quit -sim
+# End time: 19:53:48 on May 02,2020, Elapsed time: 1:51:12
+# Errors: 0, Warnings: 1, Suppressed Warnings: 10
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv failed with 1 errors.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of asmodee.sv failed with 9 errors.
+# 31 compiles, 2 failed with 10 errors.
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of asmodee.sv failed with 9 errors.
+# 31 compiles, 1 failed with 9 errors.
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of asmodee.sv failed with 8 errors.
+# 31 compiles, 1 failed with 8 errors.
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of asmodee.sv failed with 8 errors.
+# 31 compiles, 1 failed with 8 errors.
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of asmodee.sv failed with 6 errors.
+# 31 compiles, 1 failed with 6 errors.
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of asmodee.sv failed with 1 errors.
+# 31 compiles, 1 failed with 1 error.
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of asmodee.sv was successful.
+# 31 compiles, 0 failed with no errors.
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of t_insmem.sv failed with 2 errors.
+# Compile of tbench_asmodee.sv was successful.
+# 33 compiles, 1 failed with 2 errors.
+# Compile of package.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of alu.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tmem.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:29:29 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# ** Error: (vsim-3033) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(118): Instantiation of 'if_stage_out' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_asmodee/asm File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv
+#         Searched libraries:
+#             /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/Quartus/work
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Error loading design
+# End time: 20:29:29 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv failed with 1 errors.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 1 failed with 1 error.
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:32:50 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(55): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_ife_in File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(65): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_ins_mem File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(75): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_ife_out File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(86): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(96): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(106): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(116): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(127): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_lsu_in File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(137): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_dat_mem File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(147): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_lsu_out File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(158): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(171): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(179): [PCDPC] - Port size (5) does not match connection size (1) for port 'waddr_a_i'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv(25).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/rf File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'operateur_alu_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(34).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'rf_waddr_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(58).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Error: (vsim-3906) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(264): Connection type 'reg' is incompatible with 'tbench_asmodee.asm.alu.enum reg[4:0] ' for  port (operator_i):  Enum types must match.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+# Error loading design
+# End time: 20:32:50 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 4
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:34:44 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(55): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_ife_in File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(65): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_ins_mem File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(75): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_ife_out File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(86): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(96): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(106): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(116): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(127): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_lsu_in File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(137): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_dat_mem File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(147): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_lsu_out File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(158): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(171): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(179): [PCDPC] - Port size (5) does not match connection size (1) for port 'waddr_a_i'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv(25).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/rf File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'operateur_alu_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(34).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'rf_waddr_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(58).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Error: (vsim-3906) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(264): Connection type 'reg' is incompatible with 'tbench_asmodee.asm.alu.enum reg[4:0] ' for  port (operator_i):  Enum types must match.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+# Error loading design
+# End time: 20:34:44 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 4
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:35:14 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(55): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_ife_in File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(65): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_ins_mem File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(75): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_ife_out File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(86): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(96): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_rfr File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(106): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(116): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(127): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_lsu_in File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(137): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_dat_mem File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(147): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_lsu_out File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(158): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(171): Port 'rst_ni' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/ctl_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/controler.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(179): [PCDPC] - Port size (5) does not match connection size (1) for port 'waddr_a_i'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv(25).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/rf File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'operateur_alu_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(34).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'rf_waddr_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(58).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Error: (vsim-3906) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(264): Connection type 'reg' is incompatible with 'tbench_asmodee.asm.alu.enum reg[4:0] ' for  port (operator_i):  Enum types must match.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+# Error loading design
+# End time: 20:35:14 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 13, Warnings: 4
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:36:38 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(181): Port 'rst_i' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/f_dec File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(193): Port 'rst_i' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/j_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(207): Port 'rst_i' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/f_iss File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork4.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(223): Port 'rst_i' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/f_alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork3.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(237): Port 'rst_i' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/j_lsu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(249): Port 'rst_i' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/j_rfw File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join3.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(263): Port 'rst_i' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/j_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/join.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/async_controler.sv(275): Port 'rst_i' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/tete/f_pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/fork.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(179): [PCDPC] - Port size (5) does not match connection size (1) for port 'waddr_a_i'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv(25).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/rf File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'operateur_alu_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(34).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'rf_waddr_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(58).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Error: (vsim-3906) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(264): Connection type 'reg' is incompatible with 'tbench_asmodee.asm.alu.enum reg[4:0] ' for  port (operator_i):  Enum types must match.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+# Error loading design
+# End time: 20:36:38 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 4
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:38:41 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(179): [PCDPC] - Port size (5) does not match connection size (1) for port 'waddr_a_i'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv(25).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/rf File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/register_file.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'operateur_alu_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(34).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'rf_waddr_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(58).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Error: (vsim-3906) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(264): Connection type 'reg' is incompatible with 'tbench_asmodee.asm.alu.enum reg[4:0] ' for  port (operator_i):  Enum types must match.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+# Error loading design
+# End time: 20:38:41 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 4
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:40:40 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'operateur_alu_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(34).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Error: (vsim-3906) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(264): Connection type 'reg' is incompatible with 'tbench_asmodee.asm.alu.enum reg[4:0] ' for  port (operator_i):  Enum types must match.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+# Error loading design
+# End time: 20:40:40 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv failed with 1 errors.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 1 failed with 1 error.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:42:55 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Warning: (vsim-3015) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(206): [PCDPC] - Port size (5) does not match connection size (1) for port 'operateur_alu_o'. The port definition is at: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv(34).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/issue_m File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/issue.sv
+# ** Error: (vsim-3906) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(264): Connection type 'reg' is incompatible with 'tbench_asmodee.asm.alu.enum reg[4:0] ' for  port (operator_i):  Enum types must match.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+# Error loading design
+# End time: 20:42:55 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv failed with 1 errors.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 1 failed with 1 error.
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:45:13 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end sim:/tbench_asmodee/asm/rf/*
+add wave -position end  sim:/tbench_asmodee/asm/rf/mem
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+run
+run
+run
+run
+run
+run
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end  sim:/tbench_asmodee/rst
+add wave -position end  sim:/tbench_asmodee/start
+add wave -position end  sim:/tbench_asmodee/boot
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/tete/*
+run
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(324): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(106).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+quit -sim
+# End time: 20:48:32 on May 02,2020, Elapsed time: 0:03:19
+# Errors: 0, Warnings: 6, Suppressed Warnings: 30
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:48:36 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end sim:/tbench_asmodee/asm/tete/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+quit -sim
+# End time: 20:50:32 on May 02,2020, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 2, Suppressed Warnings: 10
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:50:36 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end sim:/tbench_asmodee/asm/tete/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+quit -sim
+# End time: 20:52:42 on May 02,2020, Elapsed time: 0:02:06
+# Errors: 0, Warnings: 2, Suppressed Warnings: 10
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 20:52:47 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end sim:/tbench_asmodee/asm/tete/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position 15 sim:/tbench_asmodee/asm/pca/*
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+quit -sim
+# End time: 21:05:42 on May 02,2020, Elapsed time: 0:12:55
+# Errors: 0, Warnings: 4, Suppressed Warnings: 20
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 21:07:10 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end sim:/tbench_asmodee/asm/tete/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+quit -sim
+# End time: 21:07:25 on May 02,2020, Elapsed time: 0:00:15
+# Errors: 0, Warnings: 2, Suppressed Warnings: 10
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 33 compiles, 0 failed with no errors.
+# Load canceled
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 21:07:49 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+add wave -position end sim:/tbench_asmodee/asm/tete/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/tete/ctl_pca/*
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/tete/f_pca/*
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/tete/ctl_iss/*
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/tete/f_iss/*
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(319): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(101).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/pca File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/tete/ctl_pca/*
+quit -sim
+# End time: 21:33:23 on May 02,2020, Elapsed time: 0:25:34
+# Errors: 0, Warnings: 10, Suppressed Warnings: 50
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv failed with 5 errors.
+# Compile of async_controler.sv failed with 1 errors.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 2 failed with 6 errors.
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv failed with 5 errors.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 1 failed with 5 errors.
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv failed with 4 errors.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 1 failed with 4 errors.
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 21:37:35 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# ** Error: (vsim-3037) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(347): Missing instance name in instantiation of 'boot'.
+#    Time: 0 ps  Iteration: 0  Instance: /tbench_asmodee/asm File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv
+# Error loading design
+# End time: 21:37:35 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim work.tbench_alu
+# vsim work.tbench_alu 
+# Start time: 21:38:18 on May 02,2020
+# Loading sv_std.std
+# Loading work.pkg
+# Loading work.tbench_alu
+# Loading work.pc_alu
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_pc_alu.sv(18): Port 'req_i' not found in the connected module (1st connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_alu/alucard File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+# ** Error: (vsim-3063) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/tbench_pc_alu.sv(18): Port 'rst_ni' not found in the connected module (2nd connection).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_alu/alucard File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/pc_alu.sv
+# Error loading design
+# End time: 21:38:18 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 21:38:21 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Loading work.boot
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(340): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(105).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/boo File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/boot.sv
+add wave -position end sim:/tbench_asmodee/asm/tete/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/rf/*
+add wave -position end  sim:/tbench_asmodee/asm/rf/mem
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(340): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(105).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/boo File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/boot.sv
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/ife_in/*
+restart
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(340): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(105).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/boo File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/boot.sv
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/insmem/*
+add wave -position end  sim:/tbench_asmodee/asm/insmem/mem
+quit -sim
+# End time: 21:42:00 on May 02,2020, Elapsed time: 0:03:39
+# Errors: 0, Warnings: 6, Suppressed Warnings: 30
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 21:42:07 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Loading work.boot
+# ** Warning: (vsim-3839) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(340): Variable '/tbench_asmodee/asm/pc_addr', driven via a port connection, is multiply driven. See /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/asmodee.sv(105).
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/boo File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/boot.sv
+# ** Fatal: (vsim-3356) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/t_insmem.sv(18): Index into 'mem' is out of bounds.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/insmem File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/t_insmem.sv
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 21:42:07 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 21:45:23 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Loading work.boot
+# ** Fatal: (vsim-3356) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/t_insmem.sv(18): Index into 'mem' is out of bounds.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/insmem File: /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/t_insmem.sv
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 21:45:23 on May 02,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 21:45:58 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Loading work.boot
+add wave -position end sim:/tbench_asmodee/asm/tete/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+restart
+add wave -position end  sim:/tbench_asmodee/asm/rf/mem
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end  sim:/tbench_asmodee/asm/insmem/mem
+add wave -position end sim:/tbench_asmodee/asm/ife_in/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end  sim:/tbench_asmodee/asm/boo/boot_addr_o
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/boo/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/pca/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+quit -sim
+# End time: 21:49:49 on May 02,2020, Elapsed time: 0:03:51
+# Errors: 0, Warnings: 6, Suppressed Warnings: 60
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 21:49:53 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Loading work.boot
+add wave -position end sim:/tbench_asmodee/asm/boo/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/pca/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+quit -sim
+# End time: 21:52:48 on May 02,2020, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 2, Suppressed Warnings: 20
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+# Load canceled
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 21:52:59 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Loading work.boot
+add wave -position end sim:/tbench_asmodee/asm/boo/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end  sim:/tbench_asmodee/asm/rf/mem
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/ife_in/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/insmem/*
+restart
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/ife_out/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/dec/*
+run
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/rf/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+quit -sim
+# End time: 21:59:28 on May 02,2020, Elapsed time: 0:06:29
+# Errors: 0, Warnings: 7, Suppressed Warnings: 70
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv failed with 1 errors.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 1 failed with 1 error.
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv failed with 1 errors.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 1 failed with 1 error.
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 22:06:02 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Loading work.boot
+add wave -position end sim:/tbench_asmodee/asm/rf/*
+add wave -position end  sim:/tbench_asmodee/asm/rf/mem
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/rf/*
+add wave -position end  sim:/tbench_asmodee/asm/rf/mem
+add wave -position end sim:/tbench_asmodee/asm/alu/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/rf/*
+restart
+add wave -position end sim:/tbench_asmodee/asm/dec/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/issue_m/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end  sim:/tbench_asmodee/asm/issue_m/operand_b
+quit -sim
+# End time: 22:22:46 on May 02,2020, Elapsed time: 0:16:44
+# Errors: 0, Warnings: 4, Suppressed Warnings: 40
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 22:22:51 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Loading work.boot
+add wave -position end sim:/tbench_asmodee/asm/issue_m/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end  sim:/tbench_asmodee/asm/rf/mem
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/alu/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end sim:/tbench_asmodee/asm/rf/*
+restart
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end  sim:/tbench_asmodee/asm/rf/mem
+quit -sim
+# End time: 22:30:00 on May 02,2020, Elapsed time: 0:07:09
+# Errors: 0, Warnings: 4, Suppressed Warnings: 40
+# Compile of alu.sv was successful.
+# Compile of asmodee.sv was successful.
+# Compile of async_controler.sv was successful.
+# Compile of boot.sv was successful.
+# Compile of c_element.sv was successful.
+# Compile of controler.sv was successful.
+# Compile of decode.sv was successful.
+# Compile of fork.sv was successful.
+# Compile of fork3.sv was successful.
+# Compile of fork4.sv was successful.
+# Compile of if_stage_in.sv was successful.
+# Compile of if_stage_out.sv was successful.
+# Compile of issue.sv was successful.
+# Compile of join.sv was successful.
+# Compile of join3.sv was successful.
+# Compile of lsu_in.sv was successful.
+# Compile of lsu_out.sv was successful.
+# Compile of package.sv was successful.
+# Compile of pc_alu.sv was successful.
+# Compile of register_file.sv was successful.
+# Compile of t_insmem.sv was successful.
+# Compile of tbench_acon.sv was successful.
+# Compile of tbench_alu.sv was successful.
+# Compile of tbench_asmodee.sv was successful.
+# Compile of tbench_boot.sv was successful.
+# Compile of tbench_c.sv was successful.
+# Compile of tbench_controler.sv was successful.
+# Compile of tbench_decode.sv was successful.
+# Compile of tbench_decode_imm.sv was successful.
+# Compile of tbench_issue.sv was successful.
+# Compile of tbench_lsu.sv was successful.
+# Compile of tbench_pc_alu.sv was successful.
+# Compile of tbench_RF.sv was successful.
+# Compile of tmem.sv was successful.
+# 34 compiles, 0 failed with no errors.
+vsim work.tbench_asmodee
+# vsim work.tbench_asmodee 
+# Start time: 22:30:04 on May 02,2020
+# Loading sv_std.std
+# Loading work.tbench_asmodee
+# Loading work.pkg
+# Loading work.asmodee
+# Loading work.async_controler
+# Loading work.controler
+# Loading work.c_element
+# Loading work.fork2
+# Loading work.join3
+# Loading work.fork4
+# Loading work.fork3
+# Loading work.join2
+# Loading work.tinsmem
+# Loading work.if_stage_in
+# Loading work.if_stage_out
+# Loading work.decode
+# Loading work.register_file
+# Loading work.issue
+# Loading work.alu
+# Loading work.tmem
+# Loading work.lsu_in
+# Loading work.lsu_out
+# Loading work.pc_alu
+# Loading work.boot
+add wave -position end sim:/tbench_asmodee/asm/rf/*
+run
+# ** Warning: (vsim-8315) /home/xav/Phelma/Projet_Numerique_Ibex/IbexAsynchrone/rtl/sync/alu.sv(30): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ns  Iteration: 0  Instance: /tbench_asmodee/asm/alu
+add wave -position end  sim:/tbench_asmodee/asm/rf/mem

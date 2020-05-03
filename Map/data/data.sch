@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 18
+Sheet 1 17
 Title ""
 Date ""
 Rev ""
@@ -28,14 +28,6 @@ F0 "RF r" 50
 F1 "Block.sch" 50
 F2 "req_in" I L 4050 2300 50 
 F3 "req_out" O R 4800 2300 50 
-$EndSheet
-$Sheet
-S 4050 2600 750  200 
-U 5EAC82B1
-F0 "PC/CSR" 50
-F1 "Block.sch" 50
-F2 "req_in" I L 4050 2700 50 
-F3 "req_out" O R 4800 2700 50 
 $EndSheet
 $Sheet
 S 5850 2700 750  200 
@@ -94,29 +86,8 @@ Wire Wire Line
 	10950 4550 10950 4650
 Wire Wire Line
 	1450 2800 1500 2800
-Text GLabel 550  2350 1    50   Input ~ 0
-rst
 Text Label 10950 4650 3    50   ~ 0
 req_moa
-$Sheet
-S 650  2700 800  200 
-U 5EAD46D6
-F0 "j_ife" 50
-F1 "Join2.sch" 50
-F2 "req_out" O R 1450 2800 50 
-F3 "req_in1" I L 650 2750 50 
-F4 "req_in2" I L 650 2850 50 
-$EndSheet
-Wire Wire Line
-	650  2750 550  2750
-Wire Wire Line
-	550  2350 550  2750
-Wire Wire Line
-	550  4100 550  2850
-Wire Wire Line
-	550  2850 650  2850
-Wire Wire Line
-	550  4100 4300 4100
 $Sheet
 S 5050 2650 700  300 
 U 5EAD7F5E
@@ -126,16 +97,6 @@ F2 "req_out" O R 5750 2800 50
 F3 "req_in1" I L 5050 2700 50 
 F4 "req_in2" I L 5050 2800 50 
 F5 "req_in3" I L 5050 2900 50 
-$EndSheet
-$Sheet
-S 3100 2650 700  300 
-U 5EAD914F
-F0 "f_dec" 50
-F1 "fork3.sch" 50
-F2 "req_in" I L 3100 2800 50 
-F3 "req_out1" O R 3800 2900 50 
-F4 "req_out2" O R 3800 2800 50 
-F5 "req_out3" O R 3800 2700 50 
 $EndSheet
 $Sheet
 S 8350 2300 700  300 
@@ -172,16 +133,6 @@ Wire Wire Line
 	5750 2800 5850 2800
 Wire Wire Line
 	5050 2900 3800 2900
-Wire Wire Line
-	3800 2800 4000 2800
-Wire Wire Line
-	4000 2800 4000 2700
-Wire Wire Line
-	4000 2700 4050 2700
-Wire Wire Line
-	4800 2700 4850 2700
-Wire Wire Line
-	4850 2700 4850 2800
 Wire Wire Line
 	4850 2800 5050 2800
 Wire Wire Line
@@ -262,23 +213,15 @@ Wire Wire Line
 	8300 2450 8350 2450
 Text Notes 2000 2600 0    50   ~ 0
 req_ife2dec\n
-Text Notes 1250 2600 0    50   ~ 0
-req_j_ife\n
 Text Notes 2850 2650 0    50   ~ 0
 req_f_dec\n\n
-Text Notes 3900 2650 2    50   ~ 0
-req_dec2rfr\n
-Text Notes 4250 2800 2    50   ~ 0
-req_dec2pcs\n
-Text Notes 4350 3000 2    50   ~ 0
+Text Notes 4650 3000 2    50   ~ 0
 req_dec2iss\n
 Text Notes 5000 2200 3    50   ~ 0
 req_rfr2iss
-Text Notes 4850 2850 0    50   ~ 0
-req_pcs2iss\n\n
 Wire Wire Line
 	4900 2700 5050 2700
-Text Notes 5300 2850 0    50   ~ 0
+Text Notes 5700 3100 0    50   ~ 0
 req_j_iss
 Text Notes 6350 2500 0    50   ~ 0
 req_f_iss\n
@@ -304,11 +247,46 @@ Text Notes 10700 4000 1    50   ~ 0
 req_j_rfw\n
 Text Notes 5300 3900 2    50   ~ 0
 req_j_pca\n
-Text Notes 4250 4100 2    50   ~ 0
+Text Notes 3200 4300 2    50   ~ 0
 req_pca2ife\n\n
-Text Notes 550  2350 3    50   ~ 0
-req_rst\n
 Text Notes 9850 2750 0    50   ~ 0
 req_j_lsu\n
-NoConn ~ 3900 2500
+$Sheet
+S 3450 4000 800  200 
+U 5EB0D305
+F0 "f_pca" 50
+F1 "fork2.sch" 50
+F2 "req_in" I R 4250 4100 50 
+F3 "req_out1" O L 3450 4050 50 
+F4 "req_out2" O L 3450 4150 50 
+$EndSheet
+Wire Wire Line
+	4300 4100 4250 4100
+Text Notes 4450 3900 2    50   ~ 0
+req_f_pca
+Wire Wire Line
+	3450 4150 1450 4150
+Wire Wire Line
+	1450 4150 1450 2800
+Text Notes 3900 2650 1    50   ~ 0
+req_dec2rfr\n
+$Sheet
+S 3100 2650 700  300 
+U 5EAD914F
+F0 "f_dec" 50
+F1 "fork2.sch" 50
+F2 "req_in" I L 3100 2800 50 
+F3 "req_out1" O R 3800 2900 50 
+F4 "req_out3" O R 3800 2700 50 
+$EndSheet
+Wire Wire Line
+	4850 2800 4850 3850
+Wire Wire Line
+	4850 3850 3400 3850
+Wire Wire Line
+	3400 3850 3400 4050
+Wire Wire Line
+	3400 4050 3450 4050
+Text Notes 3950 3800 2    50   ~ 0
+req_pca2iss\n
 $EndSCHEMATC
