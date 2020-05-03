@@ -41,16 +41,16 @@ F3 "ack_in" I R 7100 2150 50
 F4 "req_o" O R 7100 1750 50 
 $EndSheet
 $Sheet
-S 4050 2750 1150 2100
+S 4050 2750 1100 450 
 U 5EA999FC
 F0 "DM" 50
 F1 "DataMem.sch" 50
 F2 "data_addr_i" I L 4050 3100 50 
 F3 "data_we_i" I L 4050 2900 50 
 F4 "data_wdata_i" I L 4050 3000 50 
-F5 "data_rdata_o" O R 5200 2900 50 
-F6 "data_err_o" O R 5200 3000 50 
-F7 "req" I L 4050 2800 50 
+F5 "data_rdata_o" O R 5150 2900 50 
+F6 "data_err_o" O R 5150 3000 50 
+F7 "en" I L 4050 2800 50 
 $EndSheet
 Wire Wire Line
 	3500 1750 3650 1750
@@ -61,14 +61,14 @@ req_input
 Wire Wire Line
 	2450 1750 2850 1750
 $Sheet
-S 6450 2750 1150 600 
+S 6450 2750 1150 450 
 U 5EA99C84
 F0 "lsu_out" 50
 F1 "LSU_OUT.sch" 50
 F2 "data_rdata_i" I L 6450 2900 50 
 F3 "data_err_i" I L 6450 3000 50 
 F4 "lsu_rdata_o" O R 7600 2900 50 
-F5 "req" I L 6450 2800 50 
+F5 "en" I L 6450 2800 50 
 F6 "lsu_err_o" O R 7600 3000 50 
 $EndSheet
 Wire Wire Line
@@ -127,17 +127,17 @@ Connection ~ 5050 1750
 Wire Wire Line
 	4850 2150 6000 2150
 $Sheet
-S 2100 2750 1400 2100
+S 2100 2750 1350 450 
 U 5EA99C56
 F0 "lsu_in" 50
 F1 "LSU_in.sch" 50
-F2 "data_addr_o" O R 3500 3100 50 
-F3 "data_we_o" O R 3500 2900 50 
-F4 "data_wdata_o" O R 3500 3000 50 
+F2 "data_addr_o" O R 3450 3100 50 
+F3 "data_we_o" O R 3450 2900 50 
+F4 "data_wdata_o" O R 3450 3000 50 
 F5 "lsu_we_i" I L 2100 2900 50 
 F6 "lsu_wdata_i" I L 2100 3000 50 
 F7 "adder_result_ex_i" I L 2100 3100 50 
-F8 "req" I L 2100 2800 50 
+F8 "en" I L 2100 2800 50 
 $EndSheet
 Text Label 2500 1750 0    50   ~ 0
 lsu_req_i
@@ -155,27 +155,25 @@ Wire Wire Line
 	3650 2650 3650 2500
 Connection ~ 3650 2500
 Wire Wire Line
-	3500 2900 4050 2900
-Wire Wire Line
-	3500 3000 4050 3000
-Wire Wire Line
-	3500 3100 4050 3100
-Wire Wire Line
 	4050 2800 4000 2800
 Wire Wire Line
 	4000 2800 4000 2500
 Connection ~ 4000 2500
 Wire Wire Line
 	4000 2500 3800 2500
-NoConn ~ 4000 2650
-Wire Wire Line
-	5200 2900 6450 2900
-Wire Wire Line
-	5200 3000 6450 3000
 Wire Wire Line
 	6450 2800 6000 2800
 Wire Wire Line
 	6000 2800 6000 2550
 Connection ~ 6000 2550
-NoConn ~ 5550 2150
+Wire Wire Line
+	3450 2900 4050 2900
+Wire Wire Line
+	3450 3000 4050 3000
+Wire Wire Line
+	3450 3100 4050 3100
+Wire Wire Line
+	5150 2900 6450 2900
+Wire Wire Line
+	5150 3000 6450 3000
 $EndSCHEMATC

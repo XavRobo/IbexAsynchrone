@@ -251,7 +251,6 @@ Text Notes 3200 4300 2    50   ~ 0
 req_pca2ife\n\n
 Text Notes 9850 2750 0    50   ~ 0
 req_j_lsu\n
-NoConn ~ 1100 2150
 $Sheet
 S 3450 4000 800  200 
 U 5EB0D305
