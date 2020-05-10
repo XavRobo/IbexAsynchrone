@@ -7,8 +7,10 @@ module tbench_issue;
 	import pkg::*;
 
 	logic [31:0] rf_rdata_a, rf_rdata_b, pc_rdata, instruction;
-	logic [31:0] imm_i_type, imm_s_type, imm_b_type, imm_u_type, imm_j_type, imm_o_type, imm_n_type;
-	logic req_issue, req_decode, rst, req_pc_alu, req_alu_i, req_alu_o, bb, req_data, data_req, we_data, data_we, ss, req_w;
+	logic [31:0] imm_i_type, imm_s_type, imm_b_type, imm_u_type,
+	imm_j_type, imm_o_type, imm_n_type;
+	logic req_issue, req_decode, rst, req_pc_alu, req_alu_i,
+	req_alu_o, bb, req_data, data_req, we_data, data_we, ss, req_w;
 	logic req_rf_ra, req_rf_rb;
 	pkg::op_a_sel type_operand_a; pkg::op_b_sel type_operand_b;
 	pkg::imm_b_sel type_imm_b;
@@ -17,7 +19,8 @@ module tbench_issue;
 
 	logic [4:0] waddr_i, waddr_o, rf_raddr_a, rf_raddr_b;
 
-	logic [31:0] operand_alu_a, operand_alu_b, operand_pc_alu_a, operand_pc_alu_b, lsu_wdata;
+	logic [31:0] operand_alu_a, operand_alu_b, operand_pc_alu_a,
+	operand_pc_alu_b, lsu_wdata;
 
   issue issue_m (
     .req_i            (req_issue),
@@ -58,13 +61,13 @@ module tbench_issue;
     
     	//To LSU
     .data_req_i(req_data),
-    .data_req_o(data_req),            // start transaction to data memory
+    .data_req_o(data_req),// start transaction to data memory
     
     .data_we_i(we_data),
-    .data_we_o(data_we),             // write enable
+    .data_we_o(data_we),// write enable
     
     .lsu_wdata_o(lsu_wdata),
-        //output logic [31:0] 		 lsu_addr_o, //adresse caluculer dans l'ALU
+        //output logic [31:0], lsu_addr_o, //adresse caluculer dans l'ALU
     
         //To RF write
     .rf_waddr_i(waddr_i),
@@ -102,8 +105,8 @@ module tbench_issue;
 	.rf_waddr_o(waddr_i),
 
     // LSU
-    .req_data_o(req_data),            // start transaction to data memory
-    .we_data_o(we_data),             // write enable
+    .req_data_o(req_data),// start transaction to data memory
+    .we_data_o(we_data),// write enable
 
 	.req_pc_alu_o(req_pc_alu),
 	.operateur_pc_alu_o(operateur_pc_alu),
