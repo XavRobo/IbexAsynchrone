@@ -1,4 +1,3 @@
-Organisation des fichiers rendus
 ================================
 
 Compte-rendu:
@@ -7,6 +6,7 @@ Compte-rendu:
 * Documentation: Extraits des sources bibliographiques pour le projet
 * Présentation:  Présentation pour la soutenance le lundi 04/05/2020
 * Rapport: 		 Rapport sur la totalité du projet a rendre pour le 10/05/2020
+* Rapport: 	 Rapport sur la totalité du projet a rendre pour le 10/05/2020
 
 Dossier Kicad:
 --------------
